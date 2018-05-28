@@ -625,6 +625,10 @@ section.program{
 	font-family: sans-serif;
 }
 
+.margin-top-header {
+	margin-top: 70px;
+}
+
 @media (max-width: 1024px){
 	#nav-icon1{
 		display: block;
