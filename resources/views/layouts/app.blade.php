@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="{{ app()->getLocale() }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>Seminar Nasional Sipil - Politeknik Negeri Jakarta</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <!-- Font Awesome-->
+    <link href="{{ asset('font-awesome-4.7.0/css/font-awesome.min.css') }}" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- Styles -->
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+<section id="top-header">
+    <div class="container">
+        <div class="row">
+            <strong class="pull-left">
+                <i class="fa fa-phone" aria-hidden="true"></i> 089637672914
+            </strong>
+            <strong class="pull-right">
+                <i class="fa fa-envelope" aria-hidden="true"></i> humas@sipil.seminar.pnj.ac.id
+            </strong>
+        </div>
+    </div>
+</section>
+<section class="header" id="beranda">
+  <div class="vertical-navbar-open">
+  <div class="static-form">
+    <div class="button-close-navbar-vertical col-xs-12">
+        <i class="fa fa-times fa-2x" aria-hidden="true"></i> <strong>CLOSE</strong>
+    </div>
+    <div class="navbar-vertical col-xs-12 clear-padding-col">
+      <nav>
+        <ul>
+          <li><a class="page-scroll">BERANDA</a></li>
+          <li><a class="page-scroll">KEGIATAN</a></li>
+          <li><a class="page-scroll">PENDAFTARAN</a>
+          </li>
+          <li><a class="page-scroll">PROSIDING</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+<div class="first-header nav-down" id="first-header">
+  <div class="container">
+    <div class="row">
+      <div id="logo" class="col-xs-2 col-sm-2">
+        <a href="#"><img src="{{ asset('img/logo/logo.png') }}" alt="logo"></a>
+      </div>
+        <div class="nav-bar col-xs-10 col-sm-10">
+            <ul>
+              <li><a class="page-scroll">BERANDA</a></li>
+              <li><a class="page-scroll">KEGIATAN</a></li>
+              <li><a class="page-scroll">PENDAFTARAN</a>
+              </li>
+              <li><a class="page-scroll">PROSIDING</a></li>
+            </ul>
+        </div>
+        <div id="nav-icon1">
+          <div class="icon-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</section>
+    @yield('content')
+</body>
+</html>
