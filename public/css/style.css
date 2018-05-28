@@ -571,8 +571,11 @@ section.program{
 #top-header {
 	width: 100%;
 	background:#00af66;
-	padding: 7px;
+	padding: 7px 100px;
 	overflow: hidden;
+	left: 0;
+	top: -30px;
+	position: absolute;
 }
 
 #top-header strong {
@@ -616,6 +619,11 @@ section.program{
 .footer-bottom p {
 	padding: 0;
 	margin: 0;
+}
+
+.maps {
+	width: 100%;
+	height: 400px;
 }
 
 @media (max-width: 1024px){

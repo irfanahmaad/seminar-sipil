@@ -23,18 +23,6 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 <body>
-<section id="top-header">
-    <div class="container">
-        <div class="row">
-            <strong class="pull-left">
-                <i class="fa fa-phone" aria-hidden="true"></i> 089637672914
-            </strong>
-            <strong class="pull-right">
-                <i class="fa fa-envelope" aria-hidden="true"></i> humas@sipil.seminar.pnj.ac.id
-            </strong>
-        </div>
-    </div>
-</section>
 <section class="header" id="beranda">
   <div class="vertical-navbar-open">
   <div class="static-form">
@@ -55,6 +43,14 @@
   </div>
 </div>
 <div class="first-header nav-down" id="first-header">
+  <div id="top-header">
+    <strong class="pull-left">
+        <i class="fa fa-phone" aria-hidden="true"></i> 089637672914
+    </strong>
+    <strong class="pull-right">
+        <i class="fa fa-envelope" aria-hidden="true"></i> humas@sipil.seminar.pnj.ac.id
+    </strong>
+</div>
   <div class="container">
     <div class="row">
       <div id="logo" class="col-xs-2 col-sm-2">
