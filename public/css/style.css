@@ -155,10 +155,11 @@ footer:after {
 	padding:15px 20px 30px 20px;
 	font-weight: bold;
 	transition: all 0.3s;
+	cursor: pointer;
 }
 
 .nav-bar ul li a:hover {
-	color: #800000;
+	color: #00af66;
 	text-decoration: none;
 }
 
@@ -307,9 +308,9 @@ body.special:before {
 }
 
 .button-close-navbar-vertical {
-	height: 70px;
+	height: 100px;
 	cursor: pointer;
-	padding: 20px;
+	padding: 30px;
 	box-sizing: border-box;
 	background: #fff;
 	transition: all 0.4s;
