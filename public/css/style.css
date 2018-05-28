@@ -547,51 +547,6 @@ section.program{
 
 /*end of join us*/
 
-/* Footer */
-.foot-container{
-	background-color: rgb(35,35,35);
-	color:#fff;
-	padding-top: 20px;
-	font-size:16px;
-}
-
-.foot-fill {
-	margin-bottom: 70px;
-}
-
-.foot-container i{
-	margin: 5px 10px 0 0;
-}
-
-.foot-container a{
-	color:#e8e8e8;
-	font-size:16px;
-}
-
-.foot-isi{
-	margin-top: 30px;
-	color: #e8e8e8;
-}
-
-.foot-left{
-	/*background-color: lime;*/
-	/*padding-left: 50px;*/
-}
-
-.copyright {
-	margin-top: 25px;
-	background-color:#191919;
-	padding: 3px 0px;
-	font-size: 16px;
-}
-
-.line img{
-	width: 20px;
-	height: 20px;
-	margin-left: -4px;
-}
-/* end of Footer */
-
 /*background-parralax*/
 .parallax-window {
     min-height: 500px;
@@ -627,6 +582,40 @@ section.program{
 
 .margin-top-header {
 	margin-top: 70px;
+}
+
+.footer-container {
+	width: 100%;
+	padding: 20px;
+	background: #333;
+	overflow: hidden;
+}
+
+.first-footer-column p {
+	color: #ccc;
+	font-weight: bold;
+	line-height: 20px;
+	margin-top: 20px;
+}
+
+.tagline p {
+	text-align: center;
+	font-style: italic;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.footer-bottom {
+	padding: 10px;
+	background: #000;
+	text-align: center;
+	color: #fff;
+}
+
+.footer-bottom p {
+	padding: 0;
+	margin: 0;
 }
 
 @media (max-width: 1024px){

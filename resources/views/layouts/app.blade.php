@@ -81,6 +81,31 @@
 </div>
 </section>
     @yield('content')
+<section class="footer-container">
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <img src="{{ asset('img/logo/logo-footer.png') }}" alt="logo-footer" width="200px">
+            </div>
+            <div class="col-xs-12 col-sm-4 col-lg-6 col-lg-offset-3 text-center first-footer-column">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-lg-6 col-lg-offset-3 text-center tagline">
+                <p>"Change your future with technology"</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <p>&copy; Sipil - Politeknik Negeri Jakarta</p>
+        </div>
+    </div>
+</section>
 </body>
 <script type="text/javascript" src="{{ asset('js/jquery-3.2.0.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/core.js') }}"></script>
