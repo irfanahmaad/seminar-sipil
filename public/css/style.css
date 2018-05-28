@@ -643,9 +643,49 @@ section.program{
 	}
 }
 
+
+#konten {
+	padding: 75px;
+}
+h1{
+	font-family: Raleway;
+	text-align: center;
+}
+.garis
+{
+	margin: 10px auto 40px auto;
+	border-bottom: 3px solid green;
+	width: 150px;
+
+}
+#konten .content{
+	font-size: 18px;
+}
+.iconbidang{
+	font-size: 60px;
+	text-align: center;
+}
+.iconjudul{
+	font-size: 18px;
+	padding: 10px;
+}
+.iconcontainer{
+	padding: 15px 35px 15px 35px;
+}
+.imgprofile
+{
+  border-radius: 50%;
+}
+.profilespeaker{
+	font-size: 18px;
+	padding: 5px;
+}
+.profilecontainer{
+	padding: 50px;
+}
 /*media for iPad*/
 @media screen and (width: 768px) , screen and (height: 1024px){
 
-}
+}	
 
 /* other */

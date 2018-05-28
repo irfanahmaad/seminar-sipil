@@ -17,10 +17,6 @@ Route::get('/kegiatan', function(){
 	return 'kegiatan';
 });
 
-Route::get('/pendaftaran', function(){
-	return 'pendaftaran';
-});
+Route::get('/pendaftaran','PendaftaranController@index');
 
-Route::get('/prosiding', function(){
-	return 'prosiding';
-});
+Route::get('/prosiding','ProsidingController@index');

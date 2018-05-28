@@ -34,8 +34,7 @@
         <ul>
           <li><a class="page-scroll">BERANDA</a></li>
           <li><a class="page-scroll">KEGIATAN</a></li>
-          <li><a class="page-scroll">PENDAFTARAN</a>
-          </li>
+          <li><a class="page-scroll">PENDAFTARAN</a></li>
           <li><a class="page-scroll">PROSIDING</a></li>
         </ul>
       </nav>
