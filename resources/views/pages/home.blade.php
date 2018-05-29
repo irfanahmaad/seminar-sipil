@@ -42,21 +42,21 @@
 				<div class="garis" style="margin: 20px auto"></div>
 				<div class="col-md-4" class="text-center">
 					<div class="profilecontainer">
-						<img src="{{ asset('img/dust.jpg') }}" class="img-responsive imgprofile">
+						<img src="{{ asset('img/profile.png') }}" class="img-responsive imgprofile">
 						<h3> John Doe </h3>
 						<small style="font-size: 15px"> Direktur Politeknik </small>
 					</div>
 				</div>
 				<div class="col-md-4" class="text-center">
 					<div class="profilecontainer">
-						<img src="{{ asset('img/reza1.jpg') }}" class="img-responsive imgprofile">
+						<img src="{{ asset('img/profile.png') }}" class="img-responsive imgprofile">
 						<h3> John Doe </h3>
 						<small style="font-size: 15px"> Direktur Politeknik </small>
 					</div>
 				</div>
 				<div class="col-md-4" class="text-center">
 					<div class="profilecontainer">
-						<img src="{{ asset('img/islan.jpg') }}" class="img-responsive imgprofile">
+						<img src="{{ asset('img/profile.png') }}" class="img-responsive imgprofile">
 						<h3> John Doe </h3>
 						<small style="font-size: 15px"> Direktur Politeknik </small>
 					</div>
