@@ -13,9 +13,7 @@
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/kegiatan', function(){
-	return 'kegiatan';
-});
+Route::get('/kegiatan','KegiatanController@index');
 
 Route::get('/pendaftaran','PendaftaranController@index');
 

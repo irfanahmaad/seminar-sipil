@@ -401,6 +401,28 @@ body.special:before {
 		padding:0;
 }
 
+#banner{
+	width: 100%;
+	height: 380px;
+	/*background-size: cover;*/
+	background: url("/img/banner/banner.jpg");
+	background-position: 50% 50%;
+}
+.title_banner{
+	font-size: 32px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-top: 125px;
+	letter-spacing: 3px;
+}
+.theme_banner{
+	font-size: 20px;
+	color: #ececec;
+	font-style: italic;
+	font-weight: lighter;
+	font-family: "Raleway";
+}
+
 /*end section slider*/
 
 /*profile*/
@@ -612,7 +634,7 @@ section.program{
 }
 
 .margin-top-header {
-	margin-top: 100px;
+	margin-top: 98px;
 }
 
 .footer-container {
