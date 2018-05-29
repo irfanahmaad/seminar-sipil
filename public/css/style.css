@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'BentonSans';
+    src: url('/fonts/BentonSans Regular.otf');
+}
+
+@font-face {
+    font-family: 'BentonSans Bold';
+    src: url('/fonts/BentonSans Bold.otf');
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -9,7 +19,7 @@ li { list-style-type: none; }
 
 body {
 	font: 14px 'Raleway';
-	background: #ccc;
+	background: #f8f8fa;
 }
 
 /*styling the heading*/
@@ -61,8 +71,17 @@ footer:after {
 	background: #333;
 }
 
+.no-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
 .text-center {
 	text-align: center;
+}
+
+.latar-belakang-text {
+	line-height: 22px;
 }
 
 .clear-margin-row {
@@ -86,6 +105,10 @@ footer:after {
 
 .title-white {
 	color: #fff !important;
+}
+
+.margin-20 {
+	margin: 20px 0px;
 }
 
 .title-sections h2 {
@@ -548,6 +571,11 @@ section.program{
 /*end of join us*/
 
 /*background-parralax*/
+.wrapper {
+	border: 2px solid #f4f4f6 !important;
+	background: #fff !important;
+}
+
 .parallax-window {
     min-height: 500px;
     background: rgba(0, 0, 0, 0.6);
@@ -584,7 +612,7 @@ section.program{
 }
 
 .margin-top-header {
-	margin-top: 70px;
+	margin-top: 100px;
 }
 
 .footer-container {
@@ -644,23 +672,16 @@ section.program{
 }
 
 
-#konten {
-	padding: 75px;
+.padding-20 {
+	padding: 20px;
 }
-h1{
-	font-family: Raleway;
-	text-align: center;
-}
-.garis
-{
-	margin: 10px auto 40px auto;
-	border-bottom: 3px solid green;
-	width: 150px;
 
+.garis {
+	border-bottom: 2px solid green;
+	width: 50px;
+	margin-bottom: 20px;
 }
-#konten .content{
-	font-size: 18px;
-}
+
 .iconbidang{
 	font-size: 60px;
 	text-align: center;
@@ -675,6 +696,7 @@ h1{
 .imgprofile
 {
   border-radius: 50%;
+  border: 5px solid #00af66;
 }
 .profilespeaker{
 	font-size: 18px;
@@ -682,6 +704,25 @@ h1{
 }
 .profilecontainer{
 	padding: 50px;
+}
+
+.address {
+	padding: 30px 0px 60px;
+}
+
+.maps-text h3 {
+	font-family: "BentonSans", arial;
+	padding: 0;
+	margin:6px 0px;
+	letter-spacing: 1px;
+}
+
+.bidang-kajian-text ul li {
+	margin: 10px 0px;
+}
+
+.margin-bottom-15 {
+	margin-bottom: 25px !important;
 }
 /*media for iPad*/
 @media screen and (width: 768px) , screen and (height: 1024px){

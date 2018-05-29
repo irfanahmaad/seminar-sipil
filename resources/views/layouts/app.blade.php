@@ -23,6 +23,7 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 <body>
+
 <section class="header" id="beranda">
   <div class="vertical-navbar-open">
   <div class="static-form">
@@ -49,7 +50,7 @@
     <strong class="pull-right">
         <i class="fa fa-envelope" aria-hidden="true"></i> humas@sipil.seminar.pnj.ac.id
     </strong>
-</div>
+  </div>
   <div class="container">
     <div class="row">
       <div id="logo" class="col-xs-2 col-sm-2">
