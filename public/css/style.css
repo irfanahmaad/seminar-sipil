@@ -84,6 +84,7 @@ footer:after {
 	line-height: 22px;
 }
 
+
 .clear-margin-row {
 	margin-left: 0;
 	margin-right: 0;
@@ -535,6 +536,9 @@ section.program{
 	vertical-align: middle;
 	width: 100%;
 }
+.btn-makalah {
+	max-width: 200px;
+}
 
 .btn-1 {
 	color:#fff;
@@ -699,11 +703,11 @@ section.program{
   border: 5px solid #00af66;
 }
 .profilespeaker{
-	font-size: 18px;
+	font-size: 14px;
 	padding: 5px;
 }
 .profilecontainer{
-	padding: 50px;
+	padding: 5px;
 }
 
 .address {
@@ -723,6 +727,17 @@ section.program{
 
 .margin-bottom-15 {
 	margin-bottom: 25px !important;
+}
+.btn-flat
+{
+	border-radius: 0;
+}
+.greensipil{
+	background-color: #00af66;
+}
+
+.fa-download{
+	margin-right: 4px;
 }
 /*media for iPad*/
 @media screen and (width: 768px) , screen and (height: 1024px){

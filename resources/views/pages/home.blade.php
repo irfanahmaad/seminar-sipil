@@ -37,6 +37,27 @@
 					</div>
 				</div>
 			</div>
+			<div class="col-xs-12 col-md-8">
+				<div class="padding-20">
+				<h3 style="font-size: 18px;">Rundown Acara</h3>
+				<div class="garis"></div>
+					<div class="latar-belakang-text col-xs-10 no-padding">
+						<a href="#" class="btn btn-info btn-flat greensipil left" style="margin-right:10px"><i class="fa fa-download"></i> Hari Pertama</a>
+						<a href="#" class="btn btn-info btn-flat greensipil left"><i class="fa fa-download"></i> Hari Kedua</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<div class="padding-20">
+				<h3 style="font-size: 18px;">Format Abstrak Dan Makalah</h3>
+				<div class="garis"></div>
+					<div class="latar-belakang-text col-xs-10 no-padding">
+						<a href="#" class="btn btn-info btn-flat btn-makalah greensipil left" style="margin-right:10px"><i class="fa fa-download"></i> Format Abstrak</a>
+						<a href="#" class="btn btn-info btn-flat btn-makalah greensipil left" style="margin-right:10px"><i class="fa fa-download"></i> Format Makalah</a>
+						<a href="#" class="btn btn-info btn-flat btn-makalah greensipil" style="margin-right:-30px"><i class="fa fa-download"></i> Contoh Penulisan</a>
+					</div>
+				</div>
+			</div>
 			<div class="col-md-12 text-center">
 			<h2 style="font-size: 25px">Keynote Speakers</h2>
 				<div class="garis" style="margin: 20px auto"></div>
