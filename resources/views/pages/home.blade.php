@@ -2,7 +2,7 @@
 
 @section('content')
 	@include('sections.banner')
-	<div class="container margin-top-header wrapper">
+	<div class="container atascol wrapper">
 		<div class="row">
 			<div class="col-xs-12 col-md-8">
 				<div class="padding-20">

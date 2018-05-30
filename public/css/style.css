@@ -390,6 +390,9 @@ body.special:before {
 	padding:0;
 
 }
+.atascol{
+	margin-top: -80px;
+}
 
 .tp-banner{
 	width:100%;
