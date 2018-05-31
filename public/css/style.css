@@ -68,7 +68,7 @@ footer:after {
 /* main css */
 ::selection{
 	color: #fff;
-	background: #333;
+	background: #00af66;
 }
 
 .no-padding {
@@ -413,10 +413,10 @@ body.special:before {
 	background-position: 50% 50%;
 }
 .title_banner{
-	font-size: 32px;
+	font-size: 46px;
 	color: #ffffff;
 	text-transform: uppercase;
-	margin-top: 125px;
+	margin-top: 90px;
 	letter-spacing: 3px;
 }
 .theme_banner{
