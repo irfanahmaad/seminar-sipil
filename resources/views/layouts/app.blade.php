@@ -58,11 +58,11 @@
       </div>
         <div class="nav-bar col-xs-10 col-sm-10">
             <ul>
-              <li><a class="page-scroll">BERANDA</a></li>
-              <li><a class="page-scroll">KEGIATAN</a></li>
-              <li><a class="page-scroll">PENDAFTARAN</a>
+              <li><a class="page-scroll" href="{{url('/')}}">BERANDA</a></li>
+              <li><a class="page-scroll" href="{{url('/kegiatan')}}">KEGIATAN</a></li>
+              <li><a class="page-scroll" href="{{url('/pendaftaran')}}">PENDAFTARAN</a>
               </li>
-              <li><a class="page-scroll">PROSIDING</a></li>
+              <li><a class="page-scroll" href="{{url('/prosiding')}}">PROSIDING</a></li>
             </ul>
         </div>
         <div id="nav-icon1">

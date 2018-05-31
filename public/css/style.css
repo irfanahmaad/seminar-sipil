@@ -8,6 +8,17 @@
     src: url('/fonts/BentonSans Bold.otf');
 }
 
+@font-face{
+	font-family: 'BentonSans Light Regular';
+	src: url('/fonts/BentonSans Light Regular.otf');
+}
+
+@font-face{
+	font-family: 'Century Gothic';
+	src: url('/fonts/BentonSans Century Gothic.ttf'); 
+}
+/*Century Gothic*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -413,18 +424,23 @@ body.special:before {
 	background-position: 50% 50%;
 }
 .title_banner{
+<<<<<<< HEAD
 	font-size: 46px;
+=======
+	font-size: 35px;
+>>>>>>> 89c8d4a5b99d3a688ef578f26b9f9b898faa849e
 	color: #ffffff;
 	text-transform: uppercase;
 	margin-top: 90px;
 	letter-spacing: 3px;
+	font-family: "Century Gothic";
 }
 .theme_banner{
 	font-size: 20px;
 	color: #ececec;
 	font-style: italic;
 	font-weight: lighter;
-	font-family: "Raleway";
+
 }
 
 /*end section slider*/
@@ -770,3 +786,11 @@ section.program{
 }	
 
 /* other */
+
+/* Kegiatan */
+.section-title{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+/* End Kegiatan */
