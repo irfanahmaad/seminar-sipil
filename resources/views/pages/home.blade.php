@@ -10,12 +10,10 @@
 				<div class="garis"></div>
 					<img src="{{ asset('img/build.jpg') }}" width="300px" class="margin-bottom-15">
 					<div class="latar-belakang-text col-xs-10 no-padding">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						Kemajuan teknologi memungkinkan terjadinya otomtisasi hamper di semua bidang. Sementara itu, kepemilikan perangkat pintar di berbagai bagian dunia mengarah pada tinkat keterkaitan satu sama lain yang tak terbayangkan sebelumnya. Di antara berbagai tantangan yang sedang dihadapi dunia saat ini, mungkin yang paling besar adalah bagaimana membentuk Revolusi Industri keempat (Revolusi Industri 4.0) yang dimulai pada permulaan abad ini. Teknologi dan pendekatan baru yang menggabungkan dunia fisik, digital, dan biologi secara fundamental akan mengubah umat manusia.
+					</div>
+					<div class="latar-belakang-text col-xs-10 no-padding">
+						Kemajuan teknologi memungkinkan terjadinya otomtisasi hamper di semua bidang. Sementara itu, kepemilikan perangkat pintar di berbagai bagian dunia mengarah pada tinkat keterkaitan satu sama lain yang tak terbayangkan sebelumnya. Di antara berbagai tantangan yang sedang dihadapi dunia saat ini, mungkin yang paling besar adalah bagaimana membentuk Revolusi Industri keempat (Revolusi Industri 4.0) yang dimulai pada permulaan abad ini. Teknologi dan pendekatan baru yang menggabungkan dunia fisik, digital, dan biologi secara fundamental akan mengubah umat manusia.
 					</div>
 				</div>
 			</div>

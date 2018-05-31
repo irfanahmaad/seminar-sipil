@@ -2,7 +2,7 @@
 
 @section('content')
 	<!-- codingnya disini ya bre -->
-	<div class="container" style="background-color: #ffffff">
+	<div class="container margin-top-header" style="background-color: #ffffff">
 		<div class="row">
 			<div class="col-md-12" id="konten">
 			<h1>Cara Pendaftaran</h1>
