@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Seminar Nasional Sipil - Politeknik Negeri Jakarta</title>
+    <title>Seminar Nasional Sipil 2018- Politeknik Negeri Jakarta</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -23,7 +23,7 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 <body>
-
+<section id="page-top"></section>
 <section class="header" id="beranda">
   <div class="vertical-navbar-open">
   <div class="static-form">
@@ -33,10 +33,12 @@
     <div class="navbar-vertical col-xs-12 clear-padding-col">
       <nav>
         <ul>
-          <li><a class="page-scroll">BERANDA</a></li>
-          <li><a class="page-scroll">KEGIATAN</a></li>
-          <li><a class="page-scroll">PENDAFTARAN</a></li>
-          <li><a class="page-scroll">PROSIDING</a></li>
+          <li><a class="page-scroll" href="#page-top">BERANDA</a></li>
+          <li><a class="page-scroll" href="#tentang-seminar">TENTANG SEMINAR</a></li>
+          <li><a class="page-scroll" href="#pembicara">PEMBICARA</a></li>
+          <li><a class="page-scroll" href="#submission">SUBMISSION</a></li>
+          <li><a class="page-scroll" href="#call-for-papers">CALL FOR PAPERS</a></li>
+          <li><a class="page-scroll" href="#galeri">GALERI</a></li>
         </ul>
       </nav>
     </div>
@@ -44,10 +46,10 @@
 </div>
 <div class="first-header nav-down" id="first-header">
   <div id="top-header">
-    <strong class="pull-left">
+    <strong class="pull-left col-xs-6" style="text-align: left;">
         <i class="fa fa-phone" aria-hidden="true"></i> 089637672914
     </strong>
-    <strong class="pull-right">
+    <strong class="pull-right col-xs-6" style="text-align: right;">
         <i class="fa fa-envelope" aria-hidden="true"></i> humas@sipil.seminar.pnj.ac.id
     </strong>
   </div>
@@ -58,11 +60,12 @@
       </div>
         <div class="nav-bar col-xs-10 col-sm-10">
             <ul>
-              <li><a class="page-scroll" href="{{url('/')}}">BERANDA</a></li>
-              <li><a class="page-scroll" href="{{url('/kegiatan')}}">KEGIATAN</a></li>
-              <li><a class="page-scroll" href="{{url('/pendaftaran')}}">PENDAFTARAN</a>
-              </li>
-              <li><a class="page-scroll" href="{{url('/prosiding')}}">PROSIDING</a></li>
+              <li><a class="page-scroll" href="#page-top">BERANDA</a></li>
+              <li><a class="page-scroll" href="#tentang-seminar">TENTANG SEMINAR</a></li>
+              <li><a class="page-scroll" href="#pembicara">PEMBICARA</a></li>
+              <li><a class="page-scroll" href="#submission">SUBMISSION</a></li>
+              <li><a class="page-scroll" href="#call-for-papers">CALL FOR PAPERS</a></li>
+              <li><a class="page-scroll" href="#galeri">GALERI</a></li>
             </ul>
         </div>
         <div id="nav-icon1">
@@ -84,13 +87,10 @@
                 <img src="{{ asset('img/logo/logo-footer.png') }}" alt="logo-footer" width="200px">
             </div>
             <div class="col-xs-12 col-sm-4 col-lg-6 col-lg-offset-3 text-center first-footer-column">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.</p>
+                <p>Bangunan hijau juga harus dimulai denga penggunaan lahan yang sesuai dengan tata ruang kota dan merupakan daerah peruntukan. Selain itu Green Building juga memperhatikan sampai taraf pengoperasian hingga dalam operasional pemeliharaannya. Manfaat Pembangunan Green Building meliputi manfaat lingkungan, manfaat ekonomi, manfaat sosial.</p>
             </div>
-            <div class="col-xs-12 col-sm-4 col-lg-6 col-lg-offset-3 text-center tagline">
-                <p>"Change your future with technology"</p>
+            <div class="col-xs-12 col-sm-4 col-lg-8 col-lg-offset-2 text-center tagline">
+                <p>"Green Construction Untuk Mewujudkan Pembangunan yang Berkelanjutan"</p>
             </div>
         </div>
     </div>
@@ -104,5 +104,6 @@
 </section>
 </body>
 <script type="text/javascript" src="{{ asset('js/jquery-3.2.0.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/jquery.easing.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/core.js') }}"></script>
 </html>

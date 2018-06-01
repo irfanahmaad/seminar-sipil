@@ -9,10 +9,10 @@
 	<div class="container wrapper">
 		<div class="row">
 			<div class="address text-center">
-				<h3>ISO TRAINING UI 2018</h3>
+				<h3>POLITEKNIK NEGERI JAKARTA</h3>
 				<small>at</small>
 				<h3 class="margin-bottom-15">Depok</h3>
-				<small style="font-size: 17px">Aula Terapung Perpustakaan Pusat, UI Depok Universitas Indonesia, Depok, West Java</small>
+				<small style="font-size: 17px">Jl. Prof. Dr. G.A Siwabessy, Kampus Baru UI Depok 16424, Gedung Direktorat Politeknik Negeri Jakarta</small>
 			</div>
 		</div>
 	</div>

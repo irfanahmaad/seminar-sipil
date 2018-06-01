@@ -13,10 +13,10 @@
 	src: url('/fonts/BentonSans Light Regular.otf');
 }
 
-@font-face{
+/*@font-face{
 	font-family: 'Century Gothic';
-	src: url('/fonts/BentonSans Century Gothic.ttf'); 
-}
+	src: url('/fonts/Century Gothic.ttf'); 
+}*/
 /*Century Gothic*/
 
 * {
@@ -121,13 +121,6 @@ footer:after {
 
 .margin-20 {
 	margin: 20px 0px;
-}
-
-.title-sections h2 {
-	font-size: 30px;
-	font-family: "Raleway",sans-serif;
-	text-transform: uppercase;
-	color: #800000;
 }
 
 .title-teams h2 {
@@ -424,19 +417,22 @@ body.special:before {
 	background-position: 50% 50%;
 }
 .title_banner{
-	font-size: 46px;
+	font-size: 60px;
 	color: #ffffff;
 	text-transform: uppercase;
 	margin-top: 90px;
 	letter-spacing: 3px;
-	font-family: "Century Gothic";
+	font-family: "Century Gothic", sans-serif
 }
 .theme_banner{
 	font-size: 20px;
 	color: #ececec;
 	font-style: italic;
 	font-weight: lighter;
+}
 
+#banner strong {
+	color: #fff;
 }
 
 /*end section slider*/
@@ -723,6 +719,13 @@ section.program{
 	margin-bottom: 20px;
 }
 
+.garis-putih {
+	border-bottom: 2px solid #fff;
+	width: 50px;
+	margin-bottom: 20px;
+}
+
+
 .iconbidang{
 	font-size: 60px;
 	text-align: center;
@@ -738,6 +741,8 @@ section.program{
 {
   border-radius: 50%;
   border: 5px solid #00af66;
+  width: 50%;
+  margin: 0 auto;
 }
 .profilespeaker{
 	font-size: 14px;
@@ -775,6 +780,10 @@ section.program{
 
 .fa-download{
 	margin-right: 4px;
+}
+
+#pembicara {
+	padding: 50px;
 }
 /*media for iPad*/
 @media screen and (width: 768px) , screen and (height: 1024px){
