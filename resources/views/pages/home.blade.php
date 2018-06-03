@@ -11,7 +11,6 @@
 				<div class="padding-20">
 				<h3 style="font-size: 18px;">Latar Belakang</h3>
 				<div class="garis"></div>
-					<img src="{{ asset('img/build.jpg') }}" width="300px" class="margin-bottom-15">
 					<div class="latar-belakang-text col-xs-10 no-padding">
 						Kemajuan teknologi memungkinkan terjadinya otomtisasi hamper di semua bidang. Sementara itu, kepemilikan perangkat pintar di berbagai bagian dunia mengarah pada tinkat keterkaitan satu sama lain yang tak terbayangkan sebelumnya. Di antara berbagai tantangan yang sedang dihadapi dunia saat ini, mungkin yang paling besar adalah bagaimana membentuk Revolusi Industri keempat (Revolusi Industri 4.0) yang dimulai pada permulaan abad ini. Teknologi dan pendekatan baru yang menggabungkan dunia fisik, digital, dan biologi secara fundamental akan mengubah umat manusia.<br><br>
 					</div>
@@ -34,6 +33,15 @@
 						<li>Metode Pelaksanaan dan K3</li>
 						<li>Transportasi</li>
 					</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<div class="padding-20">
+				<h3 style="font-size: 18px;">Tujuan</h3>
+				<div class="garis"></div>
+					<div class="latar-belakang-text col-xs-10 no-padding">
+						Menyebarluaskan pengetahuan, standar, teknologi dan hasil penelitian di bidang struktur, bahan bangunan, dan perkembagnan teknologi terkini di bidang teknik sipil, guna meningkatkan pengetahuan dan pemahaman tentang struktur dan rekayasa bahan konstruksi teknik sipil.<br><br>
 					</div>
 				</div>
 			</div>
