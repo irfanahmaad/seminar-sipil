@@ -15,7 +15,7 @@
 
 /*@font-face{
 	font-family: 'Century Gothic';
-	src: url('/fonts/Century Gothic.ttf'); 
+	src: url('/fonts/Century Gothic.ttf');
 }*/
 /*Century Gothic*/
 
@@ -788,7 +788,7 @@ section.program{
 /*media for iPad*/
 @media screen and (width: 768px) , screen and (height: 1024px){
 
-}	
+}
 
 /* other */
 
@@ -797,5 +797,25 @@ section.program{
 	margin-bottom: 30px;
 	text-align: center;
 }
-
 /* End Kegiatan */
+
+/* important-dates */
+.session-date{
+  	padding: 15px 0;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: 0;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    /*background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;*/
+}
+.set-table{
+	font-size: 17px;
+
+}
+
+/* end important-dates  */

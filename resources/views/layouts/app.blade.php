@@ -21,6 +21,9 @@
     
     <!-- Styles -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/timeline.css') }}" rel="stylesheet">
+    <!-- <link rel="stylesheet/less" type="text/css" href="styles.less"> -->
+
 </head>
 <body>
 <section id="page-top"></section>
