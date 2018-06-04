@@ -21,14 +21,8 @@
     
     <!-- Styles -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-<<<<<<< HEAD
     <link href="{{ asset('css/timeline.css') }}" rel="stylesheet">
     <!-- <link rel="stylesheet/less" type="text/css" href="styles.less"> -->
-
-=======
-
-    
->>>>>>> 009628f1fbf9d44dfc6b33196dcab639860cc1e5
 </head>
 <body>
 <section id="page-top"></section>
@@ -44,8 +38,7 @@
           <li><a class="page-scroll" href="#page-top">BERANDA</a></li>
           <li><a class="page-scroll" href="#tentang-seminar">TENTANG SEMINAR</a></li>
           <li><a class="page-scroll" href="#pembicara">PEMBICARA</a></li>
-          <li><a class="page-scroll" href="#submission">SUBMISSION</a></li>
-          <li><a class="page-scroll" href="#call-for-papers">CALL FOR PAPERS</a></li>
+          <li><a class="page-scroll" href="#important-dates">TANGGAL PENTING</a></li>
           <li><a class="page-scroll" href="#galeri">GALERI</a></li>
         </ul>
       </nav>
@@ -54,11 +47,11 @@
 </div>
 <div class="first-header nav-down" id="first-header">
   <div id="top-header">
-    <strong class="pull-left col-xs-6" style="text-align: left;">
-        <i class="fa fa-phone" aria-hidden="true"></i> 089637672914
+    <strong class="col-xs-6 top-header-phone">
+        <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )
     </strong>
-    <strong class="pull-right col-xs-6" style="text-align: right;">
-        <i class="fa fa-envelope" aria-hidden="true"></i> humas@sipil.seminar.pnj.ac.id
+    <strong class="col-xs-6 top-header-email">
+        <i class="fa fa-envelope" aria-hidden="true"></i> semnas.sipil@pnj.ac.id
     </strong>
   </div>
   <div class="container">
@@ -71,8 +64,7 @@
               <li><a class="page-scroll" href="#page-top">BERANDA</a></li>
               <li><a class="page-scroll" href="#tentang-seminar">TENTANG SEMINAR</a></li>
               <li><a class="page-scroll" href="#pembicara">PEMBICARA</a></li>
-              <li><a class="page-scroll" href="#submission">SUBMISSION</a></li>
-              <li><a class="page-scroll" href="#call-for-papers">CALL FOR PAPERS</a></li>
+              <li><a class="page-scroll" href="#important-dates">TANGGAL PENTING</a></li>
               <li><a class="page-scroll" href="#galeri">GALERI</a></li>
             </ul>
         </div>
@@ -113,7 +105,6 @@
 </body>
 <script type="text/javascript" src="{{ asset('js/jquery-3.2.0.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/jquery.easing.min.js') }}"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
 <script type="text/javascript" src="{{ asset('js/core.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/try.js') }}"></script>

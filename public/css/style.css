@@ -92,7 +92,7 @@ footer:after {
 }
 
 .latar-belakang-text {
-	line-height: 22px;
+	line-height: 24px;
 }
 
 
@@ -425,7 +425,7 @@ body.special:before {
 	font-family: "Century Gothic", sans-serif
 }
 .theme_banner{
-	font-size: 20px;
+	font-size: 25px;
 	color: #ececec;
 	font-style: italic;
 	font-weight: lighter;
@@ -562,49 +562,13 @@ section.program{
 	font-size: 14px;
 	line-height: 33px;
 	margin: auto;
-	max-width: 160px;
+	max-width: 300px;
 	position: relative;
 	text-decoration: none;
 	text-transform: uppercase;
 	vertical-align: middle;
 	width: 100%;
 }
-.btn-makalah {
-	max-width: 200px;
-}
-
-.btn-1 {
-	color:#fff;
-	background: #800000;
-	border-radius: 0;
-}
-
-.btn-1 svg {
-	height: 45px;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-}
-.btn-1 rect {
-	fill: none;
-	stroke: #fff;
-	stroke-width: 2;
-	stroke-dasharray:400, 0;
-	-webkit-transition: all 1.75s cubic-bezier(0.19, 1, 0.22, 1);
-	transition: all 1.75s cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.btn-1:hover, .btn-1:active, .btn-1:focus {
-	color:#fff;
-}
-
-.btn-1:hover rect {
-	stroke-width: 5;
-	stroke-dasharray: 30, 310;
-	stroke-dashoffset: 75;
-}
-
 /*end of join us*/
 
 /*background-parralax*/
@@ -641,6 +605,7 @@ section.program{
 	left: 0;
 	top: -30px;
 	position: absolute;
+	max-height: 30px;
 }
 
 #top-header strong {
@@ -649,7 +614,7 @@ section.program{
 }
 
 .margin-top-header {
-	margin-top: 98px;
+	margin-top: 80px;
 }
 
 .footer-container {
@@ -691,6 +656,14 @@ section.program{
 	height: 400px;
 }
 
+.top-header-email {
+	text-align: right;
+}
+
+.top-header-phone {
+	text-align: left;
+}
+
 @media (max-width: 1024px){
 	#nav-icon1{
 		display: block;
@@ -705,6 +678,38 @@ section.program{
 	#logo {
 		padding-left: 0px;
 		padding-right: 0px;
+	}
+	.top-header-phone {
+		position: relative;
+		width: 100%;
+		text-align: center;
+	}
+
+	.top-header-email {
+		position: relative;
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	#top-header {
+		padding: 7px 0px;
+		max-height: 80px;
+		top: -55px;
+	}
+
+	#first-header {
+		/*top: 30px;*/
+	}
+
+	#banner .title_banner{
+		/*height: 380px;*/
+		font-size: 35px;
+	}
+
+	#banner .theme_banner{
+		/*height: 380px;*/
+		font-size: 15px;
 	}
 }
 
@@ -801,13 +806,14 @@ section.program{
 }
 @media screen and (min-width: 991px) {
   #gallery {
-    padding: 60px 30px 0 30px;
+    padding: 20px 0px 25px 0px;
   }
 }
 
 .img-wrapper {
   position: relative;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 .img-wrapper img {
   width: 100%;
@@ -939,7 +945,20 @@ section.program{
 }
 .set-table{
 	font-size: 17px;
+}
 
+.btn-daftar {
+	font-weight: bold;
+}
+
+.btn-daftar.focus, .btn-daftar:focus, .btn-daftar:hover,
+.btn.focus, .btn:focus, .btn:hover{
+	color: #fff;
+	background-color: #1E824C;
+}
+
+.sidebar-wrap {
+	overflow: hidden;
 }
 
 /* end important-dates  */

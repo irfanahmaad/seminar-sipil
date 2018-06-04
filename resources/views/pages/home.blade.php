@@ -5,7 +5,7 @@
 	<div class="container atascol wrapper" id="tentang-seminar">
 		<div class="row">
 			<div class="col-xs-12">
-				<a href="#" class="btn btn-flat greensipil" style="max-width: 100%; margin-top: 15px">DAFTAR SEKARANG</a>
+				<a href="#" class="btn btn-flat greensipil btn-daftar" style="max-width: 100%; margin-top: 15px">DAFTAR SEKARANG</a>
 			</div>
 			<div class="col-xs-12 col-md-8">
 				<div class="padding-20">
@@ -21,18 +21,30 @@
 			</div>
 			<div class="col-xs-12 col-md-4">
 				<div class="padding-20">
-					<h3 style="font-size: 18px;">Bidang Peminatan</h3>
-					<div class="garis"></div>
-					<div class="bidang-kajian-text col-xs-10 no-padding">
-					<ul>
-						<li>Material</li>
-						<li>Stuktur</li>
-						<li>A-Oteknik</li>
-						<li>Manajemen Konstruksi</li>
-						<li>Sumber Daya Air dan Lingkungan</li>
-						<li>Metode Pelaksanaan dan K3</li>
-						<li>Transportasi</li>
-					</ul>
+					<div class="sidebar-wrap">
+						<h3 style="font-size: 18px;">Bidang Peminatan</h3>
+						<div class="garis"></div>
+						<div class="bidang-kajian-text col-xs-10 no-padding">
+						<ul>
+							<li>Material</li>
+							<li>Stuktur</li>
+							<li>A-Oteknik</li>
+							<li>Manajemen Konstruksi</li>
+							<li>Sumber Daya Air dan Lingkungan</li>
+							<li>Metode Pelaksanaan dan K3</li>
+							<li>Transportasi</li>
+						</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<div class="padding-20">
+				<h3 style="font-size: 18px;">Peserta</h3>
+				<div class="garis"></div>
+					<div class="latar-belakang-text col-xs-10 no-padding">
+						Para mahasiswa dan dosen Jurusan Teknik Sipil Politeknik Negeri Jakarta, para dosen jurusan Teknik Sipil dari berbagai perguruan tinggi di Indonesia, praktisi maupun ahli di bidang teknik sipil dan pejabat pemerintah daerah yang berhubungan dengan teknik sipil.<br><br>
 					</div>
 				</div>
 			</div>
@@ -47,6 +59,21 @@
 			</div>
 			<div class="col-xs-12 col-md-8">
 				<div class="padding-20">
+				<h3 style="font-size: 18px;">Kontribusi</h3>
+				<div class="garis"></div>
+					<div class="latar-belakang-text col-xs-10 no-padding">
+						Pemakalah dosen dan umum : Rp. 300.000,00<br>
+						Pemakalah mahasiswa : Rp. 150.000,00<br>
+						Peserta mahasiswa PNJ : Rp. 75.000,00<br>
+						Peserta mahasiswa luar PNJ : Rp. 100.000,00<br>
+						Peseta umum : Rp. 150.000,00<br><br>
+
+						<b>Ditransfer ke no rek Bank Mandiri No. 1570001554097 a.n. Praganif Sukarno</b>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="col-xs-12 col-md-8">
+				<div class="padding-20">
 				<h3 style="font-size: 18px;">Rundown Acara</h3>
 				<div class="garis"></div>
 					<div class="latar-belakang-text col-xs-10 no-padding">
@@ -54,19 +81,19 @@
 						<a href="#" class="btn btn-info btn-flat greensipil left"><i class="fa fa-download"></i> Hari Kedua</a>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="col-xs-12 col-md-8">
 				<div class="padding-20">
 				<h3 style="font-size: 18px;">Format Abstrak Dan Makalah</h3>
 				<div class="garis"></div>
 					<div class="latar-belakang-text col-xs-10 no-padding">
-						<a href="#" class="btn btn-info btn-flat btn-makalah greensipil left" style="margin-right:10px"><i class="fa fa-download"></i> Format Abstrak</a>
-						<a href="#" class="btn btn-info btn-flat btn-makalah greensipil left" style="margin-right:10px"><i class="fa fa-download"></i> Format Makalah</a>
-						<a href="#" class="btn btn-info btn-flat btn-makalah greensipil" style="margin-right:-30px"><i class="fa fa-download"></i> Contoh Penulisan</a>
+						<a href="{{ asset('format-files/template Sistematika_Manuskrip.docx') }}" class="btn btn-info btn-flat btn-makalah greensipil left" style="margin-right:10px"><i class="fa fa-download"></i> Download Word Templates</a>
+						<!-- <a href="#" class="btn btn-info btn-flat btn-makalah greensipil left" style="margin-right:10px"><i class="fa fa-download"></i> Format Makalah</a>
+						<a href="#" class="btn btn-info btn-flat btn-makalah greensipil" style="margin-right:-30px"><i class="fa fa-download"></i> Contoh Penulisan</a> -->
 					</div>
 				</div>
 			</div>
-			<div class="col-md-12 text-center" id="pembicara">
+			<div class="col-xs-12 text-center" id="pembicara">
 			<h2 style="font-size: 25px">Pembicara</h2>
 				<div class="garis" style="margin: 20px auto"></div>
 				<div class="col-xs-6" class="text-center">
@@ -89,7 +116,7 @@
 	<section id="important-dates" class="greensipil">
 		<div class="container">
 			<div class="row text-center">
-				<h2 style="font-size: 25px; color: #000;">Tanggal Penting</h2>
+				<h2 style="font-size: 25px; color: #fff;">Tanggal Penting</h2>
 				<div class="garis-putih" style="margin: 20px auto"></div>
 			</div>
 			<!-- Kodingannya disini bre -->
@@ -130,7 +157,6 @@
 			    </div>
 			  </li>
 			</ul>
-			<!-- End -->
 		</div>
 	</section>
 	@include('sections.galeri')
