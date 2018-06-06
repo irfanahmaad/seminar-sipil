@@ -22,6 +22,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/timeline.css') }}" rel="stylesheet">
+     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
     <!-- <link rel="stylesheet/less" type="text/css" href="styles.less"> -->
 </head>
 <body>
@@ -105,7 +106,10 @@
 </body>
 <script type="text/javascript" src="{{ asset('js/jquery-3.2.0.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/jquery.easing.min.js') }}"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script> -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://isotope.metafizzy.co/v1/jquery.isotope.min.js'></script>
+
 <script type="text/javascript" src="{{ asset('js/core.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/try.js') }}"></script>
 
