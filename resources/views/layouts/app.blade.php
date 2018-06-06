@@ -109,6 +109,5 @@
 <script type="text/javascript" src="{{ asset('js/core.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/try.js') }}"></script>
 
-
 </html>
 

@@ -12,10 +12,10 @@
 				<h3 style="font-size: 18px;">Latar Belakang</h3>
 				<div class="garis"></div>
 					<div class="latar-belakang-text col-xs-10 no-padding">
-						Kemajuan teknologi memungkinkan terjadinya otomtisasi hamper di semua bidang. Sementara itu, kepemilikan perangkat pintar di berbagai bagian dunia mengarah pada tinkat keterkaitan satu sama lain yang tak terbayangkan sebelumnya. Di antara berbagai tantangan yang sedang dihadapi dunia saat ini, mungkin yang paling besar adalah bagaimana membentuk Revolusi Industri keempat (Revolusi Industri 4.0) yang dimulai pada permulaan abad ini. Teknologi dan pendekatan baru yang menggabungkan dunia fisik, digital, dan biologi secara fundamental akan mengubah umat manusia.<br><br>
+						Kemajuan teknologi memungkinkan terjadinya otomatisasi hampir di semua bidang. Sementara itu, kepemilikan perangkat pintar di berbagai bagian dunia mengarah pada tingkat keterkaitan satu sama lain yang tak terbayangkan sebelumnya. Di antara berbagai tantangan yang sedang dihadapi dunia saat ini, mungkin yang paling besar adalah bagaimana membentuk Revolusi Industri keempat (Revolusi Industri 4.0) yang dimulai pada permulaan abad ini. Teknologi dan pendekatan baru yang menggabungkan dunia fisik, digital, dan biologi secara fundamental akan mengubah umat manusia.<br><br>
 					</div>
 					<div class="latar-belakang-text col-xs-10 no-padding">
-						Salah satu yang dikembangkan di masa mendatang adalah Konsep green building atau bangunan ramah lingkungan didorong menjadi tren dunia bagi pengembangan property saat ini. Bangunan ramah lingkungan ini punya kontribusi menahan laju pemanasan global dengan membenahi iklim mikro. Konsep bangunan ramah lingkungan atau green building concept adalah terciptanya konstruksi dari tahap perencanaan, pelaksanaan dan pemakaian produk konstruksi yang ramah lingkungan, efisien dalam pemakaian energi dan sumber daya, serta berbiaya rendah, dan memperhatikan kesehatan, kenyamanan penghuninya yang emuanya berpegang kepada kaidah bersinambungan. Bangunan hijau juga harus dimulai denga penggunaan lahan yang sesuai dengan tata ruang kota dan merupakan daerah peruntukan. Selain itu Green Building juga memperhatikan sampai taraf pengoperasian hingga dalam operasional pemeliharaannya. Manfaat Pembangunan Green Building meliputi manfaat lingkungan, manfaat ekonomi, manfaat sosial.
+						Salah satu yang dikembangkan di masa mendatang adalah Konsep green building atau bangunan ramah lingkungan didorong menjadi tren dunia bagi pengembangan property saat ini. Bangunan ramah lingkungan ini punya kontribusi menahan laju pemanasan global dengan membenahi iklim mikro. Konsep bangunan ramah lingkungan atau green building concept adalah terciptanya konstruksi dari tahap perencanaan, pelaksanaan dan pemakaian produk konstruksi yang ramah lingkungan, efisien dalam pemakaian energi dan sumber daya, serta berbiaya rendah, dan memperhatikan kesehatan, kenyamanan penghuninya yang semuanya berpegang kepada kaidah bersinambungan. Bangunan hijau juga harus dimulai denga penggunaan lahan yang sesuai dengan tata ruang kota dan merupakan daerah peruntukan. Selain itu Green Building juga memperhatikan sampai taraf pengoperasian hingga dalam operasional pemeliharaannya. Manfaat Pembangunan Green Building meliputi manfaat lingkungan, manfaat ekonomi, manfaat sosial.
 					</div>
 				</div>
 			</div>
@@ -113,6 +113,7 @@
 			</div>
 		</div>
 	</div>
+	<!-- Importants Dates -->
 	<section id="important-dates" class="greensipil">
 		<div class="container">
 			<div class="row text-center">
@@ -125,23 +126,22 @@
 			  <li>
 			    <div class="direction-r">
 			      <div class="flag-wrapper">
-			        <span class="hexa"></span>
-			        <span class="flag">Batas Akhir Abstrak</span>
+			        <span class="hexa"></span> <!-- Batas Akhir Penerimaan Abstrak -->
+			        <span class="flag">Akhir Penerimaan Abstrak</span> 
 			        <span class="time-wrapper"><span class="time">18 Agustus 2018</span></span>
 			      </div>
-			      <div class="desc">Lorem ipsum Nisi labore aute do aute culpa magna nulla voluptate exercitation deserunt proident.</div>
+			      <!-- <div class="desc">Batas Akhir Penerimaan Abstrak</div> -->
 			    </div>
 			  </li>
-
 			  <!-- Item 2 -->
 			  <li>
 			    <div class="direction-l">
 			      <div class="flag-wrapper">
 			        <span class="hexa"></span>
-			        <span class="flag">Batas Penerimaan Abstrak</span>
+			        <span class="flag">Pengumuman Penerimaan Abstrak</span>
 			        <span class="time-wrapper"><span class="time">25 Agustus 2018</span></span>
 			      </div>
-			      <div class="desc">Lorem ipsum In ut sit in dolor nisi ex magna eu anim anim tempor dolore aliquip enim cupidatat laborum dolore.</div>
+			      <!-- <div class="desc">Lorem ipsum In ut sit in dolor nisi ex magna eu anim anim tempor dolore aliquip enim cupidatat laborum dolore.</div> -->
 			    </div>
 			  </li>
 
@@ -150,10 +150,21 @@
 			    <div class="direction-r">
 			      <div class="flag-wrapper">
 			        <span class="hexa"></span>
-			        <span class="flag">Batas Akhir Full Paper</span>
+			        <span class="flag">Akhir Full Paper</span>
 			        <span class="time-wrapper"><span class="time">31 Agustus 2018</span></span>
 			      </div>
-			      <div class="desc">Lorem ipsum Minim labore Ut cupidatat quis qui deserunt proident fugiat pariatur cillum cupidatat reprehenderit sit id dolor consectetur ut.</div>
+			      <!-- <div class="desc">Lorem ipsum Minim labore Ut cupidatat quis qui deserunt proident fugiat pariatur cillum cupidatat reprehenderit sit id dolor consectetur ut.</div> -->
+			    </div>
+			  </li>
+			   <!-- Item 4 -->
+			  <li>
+			    <div class="direction-l">
+			      <div class="flag-wrapper">
+			        <span class="hexa"></span>
+			        <span class="flag">Pelaksanaan Seminar</span>
+			        <span class="time-wrapper"><span class="time">15 September 2018</span></span>
+			      </div>
+			      <!-- <div class="desc">Lorem ipsum Minim labore Ut cupidatat quis qui deserunt proident fugiat pariatur cillum cupidatat reprehenderit sit id dolor consectetur ut.</div> -->
 			    </div>
 			  </li>
 			</ul>
