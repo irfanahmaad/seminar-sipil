@@ -28,7 +28,7 @@
 						<ul>
 							<li>Material</li>
 							<li>Stuktur</li>
-							<li>A-Oteknik</li>
+							<li>Geoteknik</li>
 							<li>Manajemen Konstruksi</li>
 							<li>Sumber Daya Air dan Lingkungan</li>
 							<li>Metode Pelaksanaan dan K3</li>
@@ -36,8 +36,20 @@
 						</ul>
 						</div>
 					</div>
+				</div
+				<div class="col-xs-12 col-md-4">
+				<div class="padding-20">
+					<div class="sidebar-wrap">
+						<h3 style="font-size: 18px;"><b>Makalah yang dipresentasikan akan dimuat</b></h3>
+						<div class="bidang-kajian-text col-xs-10 no-padding">
+						<ul>
+							<li>Jurnal Politeknologi (Selected Papers)</li>
+							<li>Construction And Material Journal (All Papers)</li>
+						</ul>
+						Terindeks : SINTA dan Google Scholar.
+						</div>
+					</div>
 				</div>
-
 			</div>
 			<div class="col-xs-12 col-md-8">
 				<div class="padding-20">
@@ -98,14 +110,14 @@
 				<div class="garis" style="margin: 20px auto"></div>
 				<div class="col-xs-6" class="text-center">
 					<div class="profilecontainer">
-						<img src="{{ asset('img/profile.png') }}" class="img-responsive imgprofile">
+						<img src="{{ asset('img/rana2.jpg') }}" class="img-responsive imgprofile">
 						<h3> Ir. Rana Yusuf Natsir </h3>
 						<small style="font-size: 15px"> Core Founder Green Building Council Indonesia (GBCI) </small>
 					</div>
 				</div>
 				<div class="col-xs-6" class="text-center">
 					<div class="profilecontainer">
-						<img src="{{ asset('img/profile.png') }}" class="img-responsive imgprofile">
+						<img src="{{ asset('img/oswar.jpg') }}" class="img-responsive imgprofile">
 						<h3> Dr. Ir. Oswar Muadzin Mungkasa, MURP </h3>
 						<small style="font-size: 15px"> Deputi Gubernur DKI Jakarta bidang Tata Ruang dan Lingkungan </small>
 					</div>
