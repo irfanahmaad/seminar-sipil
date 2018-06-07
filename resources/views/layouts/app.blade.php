@@ -22,7 +22,12 @@
     <!-- Styles -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/timeline.css') }}" rel="stylesheet">
+<<<<<<< HEAD
      <!-- <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'> -->
+=======
+    <!-- <link href="{{ asset('css/timeline2.css') }}" rel="stylesheet"> -->
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+>>>>>>> 0218412248ea647f55c7ac309ee96c095ecb2386
     <!-- <link rel="stylesheet/less" type="text/css" href="styles.less"> -->
 </head>
 <body>
@@ -84,14 +89,32 @@
 <section class="footer-container">
     <div class="container">
         <div class="row">
-            <div class="text-center">
+            <!-- <div class="text-center">
                 <img src="{{ asset('img/logo/logo-footer.png') }}" alt="logo-footer" width="200px">
-            </div>
-            <div class="col-xs-12 col-sm-4 col-lg-6 col-lg-offset-3 text-center first-footer-column">
+            </div> -->
+            <!-- <div class="col-xs-12 col-sm-4 col-lg-6 col-lg-offset-3 text-center first-footer-column">
                 <p>Bangunan hijau juga harus dimulai denga penggunaan lahan yang sesuai dengan tata ruang kota dan merupakan daerah peruntukan. Selain itu Green Building juga memperhatikan sampai taraf pengoperasian hingga dalam operasional pemeliharaannya. Manfaat Pembangunan Green Building meliputi manfaat lingkungan, manfaat ekonomi, manfaat sosial.</p>
             </div>
             <div class="col-xs-12 col-sm-4 col-lg-8 col-lg-offset-2 text-center tagline">
                 <p>"Green Construction Untuk Mewujudkan Pembangunan yang Berkelanjutan"</p>
+            </div> -->
+            <div class="col-xs-12 col-sm-6">
+              <p>hai kiri</p>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              
+                <strong class="top top-header-phone tagline">
+                  <h3>Hubungi Kami</h3>
+                  <ul>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )</li>
+                  </ul>
+                  <!-- <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )
+                  <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )
+                  <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH ) -->
+                </strong>
+              
             </div>
         </div>
     </div>
@@ -112,6 +135,7 @@
 
 <script type="text/javascript" src="{{ asset('js/core.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/try.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/timeline.js') }}"></script>
 
 </html>
 
