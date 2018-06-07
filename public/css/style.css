@@ -819,7 +819,7 @@ section.program{
 
 /*Galeri*/
 
-/*#gallery {
+#gallery {
   padding-top: 40px;
 }
 @media screen and (min-width: 991px) {
@@ -919,9 +919,27 @@ section.program{
     font-size: 3em;
   }
 }
-*/
+#exitButton {
+  color: #fff;
+  font-size: 2em;
+  transition: opacity 0.8s;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+#exitButton:hover {
+  opacity: 0.7;
+}
+@media screen and (min-width: 768px) {
+  #exitButton {
+    font-size: 3em;
+  }
+}
 
-a:focus {
+ /*filter */
+
+/*a:focus {
   outline: none;
 }
 
@@ -964,7 +982,7 @@ img {
 
 .isotope,
 .isotope .isotope-item {
-  /* change duration value to whatever you like */
+  /* change duration value to whatever you like 
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
   transition-duration: 0.8s;
@@ -984,7 +1002,7 @@ img {
 
 .tahun1,.tahun2,.tahun3 {
 margin: 0px;
-}
+}*/*/
 
 /* other */
 
