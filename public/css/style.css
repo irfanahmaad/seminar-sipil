@@ -794,6 +794,16 @@ section.program{
 .greensipil{
 	background-color: #00af66;
 }
+.brown-sipil {
+	background: #482305; 
+	border: 1px solid #482305;
+}
+.brown-sipil:hover,
+.brown-sipil:active,
+.brown-sipil:focus {
+	background: #2b1401 !important;
+	border: 1px solid #2b1401 !important;
+}
 
 .fa {
 	margin-right: 4px;
@@ -1027,7 +1037,7 @@ margin: 0px;
 
 .left-side-call-for-papers {
 	padding: 20px;
-	border-right: 1px solid #f75037;
+	border-right: 1px solid #7c461a;
 }
 
 .left-side-call-for-papers p,

@@ -5,7 +5,7 @@
 	<div class="container atascol wrapper" id="tentang-seminar">
 		<div class="row">
 			<div class="col-xs-12">
-				<a href="https://easychair.org/conferences/?conf=sntspnj2018" target="blank" class="btn btn-flat greensipil btn-daftar" style="max-width: 100%; margin-top: 15px">DAFTAR SEKARANG</a>
+				<a href="https://easychair.org/conferences/?conf=sntspnj2018" target="blank" class="btn btn-flat brown-sipil btn-daftar" style="max-width: 100%; margin-top: 15px">DAFTAR SEKARANG</a>
 			</div>
 			<div class="col-xs-12 col-md-8">
 				<div class="padding-20">
@@ -90,8 +90,8 @@
 				<h3 style="font-size: 18px;">Rundown Acara</h3>
 				<div class="garis"></div>
 					<div class="latar-belakang-text col-xs-10 no-padding">
-						<a href="#" class="btn btn-info btn-flat greensipil left" style="margin-right:10px; width: 200px"><i class="fa fa-download"></i> Hari Pertama</a>
-						<a href="#" class="btn btn-info btn-flat greensipil left" style="width: 200px"><i class="fa fa-download"></i> Hari Kedua</a>
+						<a href="#" class="btn btn-info btn-flat brown-sipil left" style="margin-right:10px; width: 200px"><i class="fa fa-download"></i> Hari Pertama</a>
+						<a href="#" class="btn btn-info btn-flat brown-sipil left" style="width: 200px"><i class="fa fa-download"></i> Hari Kedua</a>
 					</div>
 				</div>
 			</div>
@@ -115,7 +115,7 @@
 			</div>
 		</div>
 	</div>
-	<section id="call-for-papers" style="background: #CF3A24;">
+	<section id="call-for-papers" style="background: #7c461a;">
 		<div class="container">
 			<div class="row text-center">
 				<h2 style="font-size: 25px;color: white">Call For Papers</h2>
@@ -132,8 +132,8 @@
 					<div class="col-xs-12">
 						<h3 style="font-size: 18px;color: #fff">Abstrak Dan Makalah</h3>
 							<div class="latar-belakang-text col-xs-12 no-padding">
-								<a href="{{ asset('format-files/template Sistematika_Manuskrip.docx') }}" class="btn btn-info btn-flat btn-makalah greensipil left" style="margin-right:10px;background: #a91b07; border: 1px solid #a91b07;"><i class="fa fa-download"></i> Download Word Templates</a>
-								<a href="https://easychair.org/conferences/?conf=sntspnj2018" target="blank" class="btn btn-info btn-flat btn-makalah greensipil left" style="margin-top:10px;margin-bottom: 20px;background: #a91b07; border: 1px solid #a91b07;"><i class="fa fa-paper-plane"></i> Kirim Abstrak / Full Paper </a>
+								<a href="{{ asset('format-files/template Sistematika_Manuskrip.docx') }}" class="btn btn-info btn-flat btn-makalah brown-sipil left" style="margin-right:10px;"><i class="fa fa-download"></i> Download Word Templates</a>
+								<a href="https://easychair.org/conferences/?conf=sntspnj2018" target="blank" class="btn btn-info btn-flat btn-makalah brown-sipil left" style="margin-top:10px;margin-bottom: 20px;"><i class="fa fa-paper-plane"></i> Kirim Abstrak / Full Paper </a>
 							</div>
 						<h3 style="font-size: 18px;color: #fff;">Narahubung</h3>
 							<div class="col-xs-12 no-padding">

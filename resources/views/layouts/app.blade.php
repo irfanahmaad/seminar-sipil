@@ -85,16 +85,16 @@
 <section class="footer-container">
     <div class="container">
         <div class="row">
-            <!-- <div class="text-center">
+            <div class="text-center">
                 <img src="{{ asset('img/logo/logo-footer.png') }}" alt="logo-footer" width="200px">
-            </div> -->
-            <!-- <div class="col-xs-12 col-sm-4 col-lg-6 col-lg-offset-3 text-center first-footer-column">
+            </div>
+            <div class="col-xs-12 col-sm-4 col-lg-6 col-lg-offset-3 text-center first-footer-column">
                 <p>Bangunan hijau juga harus dimulai denga penggunaan lahan yang sesuai dengan tata ruang kota dan merupakan daerah peruntukan. Selain itu Green Building juga memperhatikan sampai taraf pengoperasian hingga dalam operasional pemeliharaannya. Manfaat Pembangunan Green Building meliputi manfaat lingkungan, manfaat ekonomi, manfaat sosial.</p>
             </div>
             <div class="col-xs-12 col-sm-4 col-lg-8 col-lg-offset-2 text-center tagline">
                 <p>"Green Construction Untuk Mewujudkan Pembangunan yang Berkelanjutan"</p>
-            </div> -->
-            <div class="col-xs-12 col-sm-6">
+            </div>
+            <!-- <div class="col-xs-12 col-sm-6">
               <p>hai kiri</p>
             </div>
             <div class="col-xs-12 col-sm-6">
@@ -106,19 +106,19 @@
                     <li><i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )</li>
                     <li><i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )</li>
                   </ul>
-                  <!-- <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )
                   <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )
-                  <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH ) -->
+                  <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )
+                  <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH ) 
                 </strong>
               
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
 <section class="footer-bottom">
     <div class="container">
         <div class="row">
-            <p>&copy; Sipil - Politeknik Negeri Jakarta</p>
+            <p>&copy; 2018 Seminar Nasional Teknik Sipil - Politeknik Negeri Jakarta</p>
         </div>
     </div>
 </section>
