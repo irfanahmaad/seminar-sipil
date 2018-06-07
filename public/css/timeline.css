@@ -110,6 +110,14 @@
   position: relative;
 }
 
+.box{
+  width: 300px;
+  background: #fff;
+  position: relative;
+  bottom: 0;
+  padding: 15px;
+}
+
 .flag {
   position: relative;
   display: inline;
@@ -235,6 +243,7 @@
   .flag-wrapper {
     display: inline-block;
   }
+
   
   .flag {
     font-size: 18px;
