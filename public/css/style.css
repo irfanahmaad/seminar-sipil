@@ -795,7 +795,7 @@ section.program{
 	background-color: #00af66;
 }
 
-.fa-download{
+.fa {
 	margin-right: 4px;
 }
 
@@ -1015,6 +1015,25 @@ margin: 0px;
 
 .sidebar-wrap {
 	overflow: hidden;
+}
+
+#important-dates {
+	padding: 20px 0px 40px;
+}
+
+#call-for-papers {
+	padding: 20px 0px 40px;
+}
+
+.left-side-call-for-papers {
+	padding: 20px;
+	border-right: 1px solid #f75037;
+}
+
+.left-side-call-for-papers p,
+.left-side-call-for-papers strong {
+	line-height: 22px;
+	color: #fff;
 }
 
 /* end important-dates  */

@@ -22,12 +22,6 @@
     <!-- Styles -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/timeline.css') }}" rel="stylesheet">
-<<<<<<< HEAD
-     <!-- <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'> -->
-=======
-    <!-- <link href="{{ asset('css/timeline2.css') }}" rel="stylesheet"> -->
-    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
->>>>>>> 0218412248ea647f55c7ac309ee96c095ecb2386
     <!-- <link rel="stylesheet/less" type="text/css" href="styles.less"> -->
 </head>
 <body>
@@ -43,7 +37,8 @@
         <ul>
           <li><a class="page-scroll" href="#page-top">BERANDA</a></li>
           <li><a class="page-scroll" href="#tentang-seminar">TENTANG SEMINAR</a></li>
-          <li><a class="page-scroll" href="#pembicara">PEMBICARA</a></li>
+          <li><a class="page-scroll" href="#pembicara">KEYNOTE SPEAKER</a></li>
+          <li><a class="page-scroll" href="#call-for-papers">CALL FOR PAPERS</a></li>
           <li><a class="page-scroll" href="#important-dates">TANGGAL PENTING</a></li>
           <li><a class="page-scroll" href="#galeri">GALERI</a></li>
         </ul>
@@ -54,7 +49,7 @@
 <div class="first-header nav-down" id="first-header">
   <div id="top-header">
     <strong class="col-xs-6 top-header-phone">
-        <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )
+        <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Bu Rita Farida )
     </strong>
     <strong class="col-xs-6 top-header-email">
         <i class="fa fa-envelope" aria-hidden="true"></i> semnas.sipil@pnj.ac.id
@@ -69,7 +64,8 @@
             <ul>
               <li><a class="page-scroll" href="#page-top">BERANDA</a></li>
               <li><a class="page-scroll" href="#tentang-seminar">TENTANG SEMINAR</a></li>
-              <li><a class="page-scroll" href="#pembicara">PEMBICARA</a></li>
+              <li><a class="page-scroll" href="#pembicara">KEYNOTE SPEAKER</a></li>
+              <li><a class="page-scroll" href="#call-for-papers">CALL FOR PAPERS</a></li>
               <li><a class="page-scroll" href="#important-dates">TANGGAL PENTING</a></li>
               <li><a class="page-scroll" href="#galeri">GALERI</a></li>
             </ul>

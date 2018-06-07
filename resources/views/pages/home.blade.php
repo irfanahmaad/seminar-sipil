@@ -5,7 +5,7 @@
 	<div class="container atascol wrapper" id="tentang-seminar">
 		<div class="row">
 			<div class="col-xs-12">
-				<a href="#" class="btn btn-flat greensipil btn-daftar" style="max-width: 100%; margin-top: 15px">DAFTAR SEKARANG</a>
+				<a href="https://easychair.org/conferences/?conf=sntspnj2018" target="blank" class="btn btn-flat greensipil btn-daftar" style="max-width: 100%; margin-top: 15px">DAFTAR SEKARANG</a>
 			</div>
 			<div class="col-xs-12 col-md-8">
 				<div class="padding-20">
@@ -85,38 +85,27 @@
 					</div>
 				</div>
 			</div>
-			<!-- <div class="col-xs-12 col-md-8">
+			<div class="col-xs-12 col-md-8">
 				<div class="padding-20">
 				<h3 style="font-size: 18px;">Rundown Acara</h3>
 				<div class="garis"></div>
 					<div class="latar-belakang-text col-xs-10 no-padding">
-						<a href="#" class="btn btn-info btn-flat greensipil left" style="margin-right:10px"><i class="fa fa-download"></i> Hari Pertama</a>
-						<a href="#" class="btn btn-info btn-flat greensipil left"><i class="fa fa-download"></i> Hari Kedua</a>
-					</div>
-				</div>
-			</div> -->
-			<div class="col-xs-12 col-md-8">
-				<div class="padding-20">
-				<h3 style="font-size: 18px;">Format Abstrak Dan Makalah</h3>
-				<div class="garis"></div>
-					<div class="latar-belakang-text col-xs-10 no-padding">
-						<a href="{{ asset('format-files/template Sistematika_Manuskrip.docx') }}" class="btn btn-info btn-flat btn-makalah greensipil left" style="margin-right:10px"><i class="fa fa-download"></i> Download Word Templates</a>
-						<!-- <a href="#" class="btn btn-info btn-flat btn-makalah greensipil left" style="margin-right:10px"><i class="fa fa-download"></i> Format Makalah</a>
-						<a href="#" class="btn btn-info btn-flat btn-makalah greensipil" style="margin-right:-30px"><i class="fa fa-download"></i> Contoh Penulisan</a> -->
+						<a href="#" class="btn btn-info btn-flat greensipil left" style="margin-right:10px; width: 200px"><i class="fa fa-download"></i> Hari Pertama</a>
+						<a href="#" class="btn btn-info btn-flat greensipil left" style="width: 200px"><i class="fa fa-download"></i> Hari Kedua</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 text-center" id="pembicara">
-			<h2 style="font-size: 25px">Pembicara</h2>
+			<h2 style="font-size: 25px">Keynote Speaker</h2>
 				<div class="garis" style="margin: 20px auto"></div>
-				<div class="col-xs-6" class="text-center">
+				<div class="col-xs-12 col-sm-6" class="text-center">
 					<div class="profilecontainer">
 						<img src="{{ asset('img/rana2.jpg') }}" class="img-responsive imgprofile">
 						<h3> Ir. Rana Yusuf Natsir </h3>
 						<small style="font-size: 15px"> Core Founder Green Building Council Indonesia (GBCI) </small>
 					</div>
 				</div>
-				<div class="col-xs-6" class="text-center">
+				<div class="col-xs-12 col-sm-6" class="text-center">
 					<div class="profilecontainer">
 						<img src="{{ asset('img/oswar.jpg') }}" class="img-responsive imgprofile">
 						<h3> Dr. Ir. Oswar Muadzin Mungkasa, MURP </h3>
@@ -126,6 +115,37 @@
 			</div>
 		</div>
 	</div>
+	<section id="call-for-papers" style="background: #CF3A24;">
+		<div class="container">
+			<div class="row text-center">
+				<h2 style="font-size: 25px;color: white">Call For Papers</h2>
+				<div class="garis-putih" style="margin: 20px auto"></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 left-side-call-for-papers">
+					<strong style="font-size: 18px;">Format Penulisan makalah</strong><br><br>
+					<p>ABSTRAK Ditulis dengan MS Word maksimum 250 kata, font Arial 11, spasi 1, ukuran kerta A4 margin kiri dan atas 3.5 cm, kanan dan bawah 2.5 cm. abstrak mencakup judul (huruf capital) penulisan, institusi, dan alamat kontak (alamat pos, telp/fax dan email) isi abstrak dan keyword.</p>
+					<p>MAKALAH LENGKAP. Ditulis dengan MS Word maksimum 10 halaman, font Arial 11, spasi 1.5, ukuran kertas A4 margin kiri dan atas 3.5 cm, kanan dan bawah 2.5 cm. makalah mencakup Abstrak, Pendahuluan, Bahan, Metode, Hasil, Pembahasan, Kesimpulan, dan Daftar Pustaka</p>
+					<p>Gambar dan table dibuat dengan jelas dan berwarna hitam putih.</p>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<div class="col-xs-12">
+						<h3 style="font-size: 18px;color: #fff">Abstrak Dan Makalah</h3>
+							<div class="latar-belakang-text col-xs-12 no-padding">
+								<a href="{{ asset('format-files/template Sistematika_Manuskrip.docx') }}" class="btn btn-info btn-flat btn-makalah greensipil left" style="margin-right:10px;background: #a91b07; border: 1px solid #a91b07;"><i class="fa fa-download"></i> Download Word Templates</a>
+								<a href="https://easychair.org/conferences/?conf=sntspnj2018" target="blank" class="btn btn-info btn-flat btn-makalah greensipil left" style="margin-top:10px;margin-bottom: 20px;background: #a91b07; border: 1px solid #a91b07;"><i class="fa fa-paper-plane"></i> Kirim Abstrak / Full Paper </a>
+							</div>
+						<h3 style="font-size: 18px;color: #fff;">Narahubung</h3>
+							<div class="col-xs-12 no-padding">
+								<p style="color: white">Tri widya : 081 770 6546</p>
+								<p style="color: white">Erlina : 081 281 787345</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!-- Importants Dates -->
 	<section id="important-dates" class="greensipil">
 		<div class="container">
