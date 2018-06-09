@@ -102,19 +102,17 @@
 <section class="footer-bottom">
     <div class="container">
         <div class="row">
-            <p>&copy; Sipil - Politeknik Negeri Jakarta</p>
+            <p>&copy; Seminar Nasional Teknik Sipil - Politeknik Negeri Jakarta</p>
         </div>
     </div>
 </section>
 </body>
 <script type="text/javascript" src="{{ asset('js/jquery-3.2.0.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/jquery.easing.min.js') }}"></script>
-<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script> -->
   <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script> -->
   <script type="text/javascript" src="{{ asset('addons/bootstrap-3.3.7/js/bootstrap.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('addons/slider/js/jquery.themepunch.plugins.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('addons/slider/js/jquery.themepunch.revolution.min.js') }}"></script>
-<script src='https://isotope.metafizzy.co/v1/jquery.isotope.min.js'></script>
 
 <script type="text/javascript" src="{{ asset('js/core.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/try.js') }}"></script>

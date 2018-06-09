@@ -31,6 +31,7 @@ $(".img-overlay").click(function(event) {
   $image.attr("src", imageLocation);
   // Fade in the overlay
   $overlay.fadeIn("slow");
+  console.log(1);
 });
 
 // When the overlay is clicked

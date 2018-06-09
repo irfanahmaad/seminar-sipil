@@ -72,9 +72,17 @@ $(document).ready(function(){
   
   // Show tab on page load
   activeTab.show();
+
   
   // Set height of wrapper on page load
-  tabWrapper.height(activeTabHeight);
+  var getLoops = 1;
+  if(getLoops == 1){
+    $(".tab__content").css({'height':'530px'});
+    getLoops = 2;
+  } else {
+    tabWrapper.height(activeTabHeight);
+  }
+    
   
   $(".tabs > li").on("click", function() {
     
@@ -115,26 +123,5 @@ $(document).ready(function(){
         
       });
     });
-  });
-  
-  // Variables
-  var colorButton = $(".colors li");
-  
-  colorButton.on("click", function(){
-    
-    // Remove class from currently active button
-    $(".colors > li").removeClass("active-color");
-    
-    // Add class active to clicked button
-    $(this).addClass("active-color");
-    
-    // Get background color of clicked
-    var newColor = $(this).attr("data-color");
-    
-    // Change background of everything with class .bg-color
-    $(".bg-color").css("background-color", newColor);
-    
-    // Change color of everything with class .text-color
-    $(".text-color").css("color", newColor);
   });
 });
