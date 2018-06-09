@@ -2,7 +2,8 @@
 
 @section('content')
 	@include('sections.banner')
-	<div class="container atascol wrapper" id="tentang-seminar">
+	<div class="container atascol wrapper" id="tentang-seminar" style="position: relative;
+    z-index: 99;">
 		<div class="row">
 			<div class="col-xs-12">
 				<a href="https://easychair.org/conferences/?conf=sntspnj2018" target="blank" class="btn btn-flat brown-sipil btn-daftar" style="max-width: 100%; margin-top: 15px">DAFTAR SEKARANG</a>
@@ -132,13 +133,13 @@
 					<div class="col-xs-12">
 						<h3 style="font-size: 18px;color: #fff">Abstrak Dan Makalah</h3>
 							<div class="latar-belakang-text col-xs-12 no-padding">
-								<a href="{{ asset('format-files/template Sistematika_Manuskrip.docx') }}" class="btn btn-info btn-flat btn-makalah brown-sipil left" style="margin-right:10px;"><i class="fa fa-download"></i> Download Word Templates</a>
-								<a href="https://easychair.org/conferences/?conf=sntspnj2018" target="blank" class="btn btn-info btn-flat btn-makalah brown-sipil left" style="margin-top:10px;margin-bottom: 20px;"><i class="fa fa-paper-plane"></i> Kirim Abstrak / Full Paper </a>
+								<a href="{{ asset('format-files/template Sistematika_Manuskrip.docx') }}" class="btn btn-info btn-flat btn-makalah brown-sipil-active left" style="margin-right:10px;"><i class="fa fa-download"></i> Download Word Templates</a>
+								<a href="https://easychair.org/conferences/?conf=sntspnj2018" target="blank" class="btn btn-info btn-flat btn-makalah brown-sipil-active left" style="margin-top:10px;margin-bottom: 20px;"><i class="fa fa-paper-plane"></i> Kirim Abstrak / Full Paper </a>
 							</div>
-						<h3 style="font-size: 18px;color: #fff;">Narahubung</h3>
+						<h3 style="font-size: 18px;color: #fff;"><i class="fa fa-phone" aria-hidden="true"></i> Narahubung</h3>
 							<div class="col-xs-12 no-padding">
-								<p style="color: white">Tri widya : 081 770 6546</p>
-								<p style="color: white">Erlina : 081 281 787345</p>
+								<p style="color: white">Bu Tri widya : 081 770 6546</p>
+								<p style="color: white">Bu Erlina : 081 281 787345</p>
 							</div>
 						</div>
 					</div>

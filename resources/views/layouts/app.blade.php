@@ -16,12 +16,16 @@
     <!-- Font Awesome-->
     <link href="{{ asset('font-awesome-4.7.0/css/font-awesome.min.css') }}" rel="stylesheet">
 
+    <!-- slider -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('addons/slider/css/settings.css') }}">
+
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     
     <!-- Styles -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/timeline.css') }}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/tab.css') }}">
     <!-- <link rel="stylesheet/less" type="text/css" href="styles.less"> -->
 </head>
 <body>
@@ -127,11 +131,27 @@
 <script type="text/javascript" src="{{ asset('js/jquery.easing.min.js') }}"></script>
 <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script> -->
   <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script> -->
+  <script type="text/javascript" src="{{ asset('addons/bootstrap-3.3.7/js/bootstrap.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('addons/slider/js/jquery.themepunch.plugins.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('addons/slider/js/jquery.themepunch.revolution.min.js') }}"></script>
 <script src='https://isotope.metafizzy.co/v1/jquery.isotope.min.js'></script>
 
 <script type="text/javascript" src="{{ asset('js/core.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/try.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/timeline.js') }}"></script>
+<script type="text/javascript">
+  var revapi;
+
+  revapi = jQuery('.tp-banner').revolution(
+        {
+          delay:5000,
+          startwidth:1170,
+          startheight:300,
+          hideThumbs:10,
+          fullWidth:"on",
+          forceFullWidth:"on"
+        });
+</script>
 
 </html>
 
