@@ -25,8 +25,6 @@
     <!-- Styles -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/timeline.css') }}" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/tab.css') }}">
-    <!-- <link rel="stylesheet/less" type="text/css" href="styles.less"> -->
 </head>
 <body>
 <section id="page-top"></section>
@@ -41,9 +39,9 @@
         <ul>
           <li><a class="page-scroll" href="#page-top">BERANDA</a></li>
           <li><a class="page-scroll" href="#tentang-seminar">TENTANG SEMINAR</a></li>
-          <li><a class="page-scroll" href="#pembicara">KEYNOTE SPEAKER</a></li>
+          <li><a class="page-scroll" href="#pembicara">PEMBICARA</a></li>
+          <li><a class="page-scroll" href="#submission">SUBMISSION</a></li>
           <li><a class="page-scroll" href="#call-for-papers">CALL FOR PAPERS</a></li>
-          <li><a class="page-scroll" href="#important-dates">TANGGAL PENTING</a></li>
           <li><a class="page-scroll" href="#galeri">GALERI</a></li>
         </ul>
       </nav>
@@ -52,11 +50,11 @@
 </div>
 <div class="first-header nav-down" id="first-header">
   <div id="top-header">
-    <strong class="col-xs-6 top-header-phone">
-        <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Bu Rita Farida )
+    <strong class="pull-left col-xs-6" style="text-align: left;">
+        <i class="fa fa-phone" aria-hidden="true"></i> 089637672914 ( Rita Farida )
     </strong>
-    <strong class="col-xs-6 top-header-email">
-        <i class="fa fa-envelope" aria-hidden="true"></i> semnas.sipil@pnj.ac.id
+    <strong class="pull-right col-xs-6" style="text-align: right;">
+        <i class="fa fa-envelope" aria-hidden="true"></i> humas@sipil.seminar.pnj.ac.id
     </strong>
   </div>
   <div class="container">
@@ -68,9 +66,9 @@
             <ul>
               <li><a class="page-scroll" href="#page-top">BERANDA</a></li>
               <li><a class="page-scroll" href="#tentang-seminar">TENTANG SEMINAR</a></li>
-              <li><a class="page-scroll" href="#pembicara">KEYNOTE SPEAKER</a></li>
+              <li><a class="page-scroll" href="#pembicara">PEMBICARA</a></li>
+              <li><a class="page-scroll" href="#submission">SUBMISSION</a></li>
               <li><a class="page-scroll" href="#call-for-papers">CALL FOR PAPERS</a></li>
-              <li><a class="page-scroll" href="#important-dates">TANGGAL PENTING</a></li>
               <li><a class="page-scroll" href="#galeri">GALERI</a></li>
             </ul>
         </div>
@@ -98,31 +96,13 @@
             <div class="col-xs-12 col-sm-4 col-lg-8 col-lg-offset-2 text-center tagline">
                 <p>"Green Construction Untuk Mewujudkan Pembangunan yang Berkelanjutan"</p>
             </div>
-            <!-- <div class="col-xs-12 col-sm-6">
-              <p>hai kiri</p>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-              
-                <strong class="top top-header-phone tagline">
-                  <h3>Hubungi Kami</h3>
-                  <ul>
-                    <li><i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )</li>
-                    <li><i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )</li>
-                    <li><i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )</li>
-                  </ul>
-                  <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )
-                  <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH )
-                  <i class="fa fa-phone" aria-hidden="true"></i> 0878 7203 2044 ( Rita Farida SH, MH ) 
-                </strong>
-              
-            </div> -->
         </div>
     </div>
 </section>
 <section class="footer-bottom">
     <div class="container">
         <div class="row">
-            <p>&copy; 2018 Seminar Nasional Teknik Sipil - Politeknik Negeri Jakarta</p>
+            <p>&copy; Sipil - Politeknik Negeri Jakarta</p>
         </div>
     </div>
 </section>
@@ -152,6 +132,4 @@
           forceFullWidth:"on"
         });
 </script>
-
 </html>
-
