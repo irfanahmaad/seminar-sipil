@@ -427,13 +427,12 @@ body.special:before {
 	font-size: 60px;
 	color: #ffffff;
 	text-transform: uppercase;
-	margin-top: 90px;
 	letter-spacing: 3px;
 	font-family: "Century Gothic", sans-serif
 }
 .theme_banner{
-	font-size: 25px;
-	color: #ececec;
+	font-size: 25px !important;
+	color: #ececec !important;
 	font-style: italic;
 	font-weight: lighter;
 }
@@ -679,6 +678,41 @@ section.program{
 	text-align: left;
 }
 
+.banner-hide {
+	display: none;
+}
+
+@media (max-width: 768px){
+	#top-header strong {
+		font-size: 9px;
+	  }
+
+	#banner {
+		height: 200px;
+		margin-top: 100px;
+		display: none;
+	}
+
+	.banner-hide {
+		display: block !important;
+		height: 400px !important;
+	}
+
+	.imgprofile {
+		width: 100% !important;
+	}
+
+
+
+	/*#banner {
+		display: none;
+	}
+
+	#tentang-seminar {
+		margin-top: 100px;
+	}*/
+}
+
 @media (max-width: 1024px){
 	#nav-icon1{
 		display: block;
@@ -708,9 +742,11 @@ section.program{
 	}
 
 	#top-header {
-		padding: 7px 0px;
-		max-height: 80px;
-		top: -55px;
+		padding-left: 0px;
+		padding-right: 0px;
+		min-height: 30px;
+		padding-top: 11px;
+		top: -30px;
 	}
 
 	#first-header {
@@ -724,7 +760,7 @@ section.program{
 
 	#banner .theme_banner{
 		/*height: 380px;*/
-		font-size: 15px;
+		font-size: 15px !important;
 	}
 }
 
