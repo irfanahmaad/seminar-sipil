@@ -91,7 +91,7 @@
                 <img src="{{ asset('img/logo/logo-footer.png') }}" alt="logo-footer" width="200px">
             </div>
             <div class="col-xs-12 col-sm-4 col-lg-6 col-lg-offset-3 text-center first-footer-column">
-                <p>Bangunan hijau juga harus dimulai denga penggunaan lahan yang sesuai dengan tata ruang kota dan merupakan daerah peruntukan. Selain itu Green Building juga memperhatikan sampai taraf pengoperasian hingga dalam operasional pemeliharaannya. Manfaat Pembangunan Green Building meliputi manfaat lingkungan, manfaat ekonomi, manfaat sosial.</p>
+                <p>Bangunan hijau juga harus dimulai dengan penggunaan lahan yang sesuai dengan tata ruang kota dan merupakan daerah peruntukan. Selain itu Green Building juga memperhatikan sampai taraf pengoperasian hingga dalam operasional pemeliharaannya. Manfaat Pembangunan Green Building meliputi manfaat lingkungan, manfaat ekonomi, manfaat sosial.</p>
             </div>
             <div class="col-xs-12 col-sm-4 col-lg-8 col-lg-offset-2 text-center tagline">
                 <p>"Green Construction Untuk Mewujudkan Pembangunan yang Berkelanjutan"</p>
