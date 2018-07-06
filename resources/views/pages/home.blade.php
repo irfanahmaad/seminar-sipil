@@ -2,8 +2,7 @@
 
 @section('content')
 	@include('sections.banner')
-	<div class="container atascol wrapper" id="tentang-seminar" style="position: relative;
-    z-index: 99;">
+	<div class="container atascol wrapper" id="tentang-seminar" style="position: relative;">
 		<div class="row">
 			<div class="col-xs-12">
 				<a href="https://easychair.org/conferences/?conf=sntspnj2018" target="blank" class="btn btn-flat brown-sipil btn-daftar" style="max-width: 100%; margin-top: 15px">DAFTAR SEKARANG</a>
@@ -91,8 +90,8 @@
 				<h3 style="font-size: 18px;">Rundown Acara</h3>
 				<div class="garis"></div>
 					<div class="latar-belakang-text col-xs-10 no-padding">
-						<a href="#" class="btn btn-info btn-flat brown-sipil left" style="margin-right:10px; width: 200px"><i class="fa fa-download"></i> Hari Pertama</a>
-						<a href="#" class="btn btn-info btn-flat brown-sipil left" style="width: 200px"><i class="fa fa-download"></i> Hari Kedua</a>
+						<a href="{{ asset('format-files/rundown_semnas_sipil_2018.docx') }}" class="btn btn-info btn-flat brown-sipil left" style="margin-right:10px; width: 217px"><i class="fa fa-download"></i> DOWNLOAD RUNDOWN</a>
+						<!-- <a href="#" class="btn btn-info btn-flat brown-sipil left" style="width: 200px"><i class="fa fa-download"></i> Hari Kedua</a> -->
 					</div>
 				</div>
 			</div>
