@@ -113,7 +113,6 @@
   <script type="text/javascript" src="{{ asset('addons/bootstrap-3.3.7/js/bootstrap.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('addons/slider/js/jquery.themepunch.plugins.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('addons/slider/js/jquery.themepunch.revolution.min.js') }}"></script>
-
 <script type="text/javascript" src="{{ asset('js/core.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/try.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/timeline.js') }}"></script>

@@ -43,11 +43,11 @@
 						<h3 style="font-size: 18px;"><b>Makalah yang dipresentasikan akan dimuat</b></h3>
 						<div class="garis"></div>
 						<div class="bidang-kajian-text col-xs-10 no-padding">
-						<ul>
-							<li>Jurnal Politeknologi (Selected Papers)</li>
-							<li>Construction And Material Journal (All Papers)</li>
-						</ul>
-						Terindeks : SINTA dan Google Scholar.
+							<ul>
+								<li>Jurnal Politeknologi (Selected Papers)</li>
+								<li>Construction And Material Journal (All Papers)</li>
+							</ul>
+							Terindeks : SINTA dan Google Scholar.
 						</div>
 					</div>
 				</div>
@@ -133,7 +133,9 @@
 						<h3 style="font-size: 18px;color: #fff">Abstrak Dan Makalah</h3>
 							<div class="latar-belakang-text col-xs-12 no-padding">
 								<a href="{{ asset('format-files/template Sistematika_Manuskrip.docx') }}" class="btn btn-info btn-flat btn-makalah brown-sipil-active left" style="margin-right:10px;"><i class="fa fa-download"></i> Download Word Templates</a>
-								<a href="https://easychair.org/conferences/?conf=sntspnj2018" target="blank" class="btn btn-info btn-flat btn-makalah brown-sipil-active left" style="margin-top:10px;margin-bottom: 20px;"><i class="fa fa-paper-plane"></i> Kirim Abstrak / Full Paper </a>
+								<a href="https://easychair.org/conferences/?conf=sntspnj2018" target="blank" class="btn btn-info btn-flat btn-makalah brown-sipil-active left" style="margin-top:10px;"><i class="fa fa-paper-plane"></i> Kirim Abstrak / Full Paper </a>
+								<!-- ini linkya belum diganti -->
+								<a href="localhost:8000/easychair" target="blank" class="btn btn-info btn-flat btn-makalah brown-sipil-active left" style="margin-top:10px;margin-bottom: 20px;"><i class="fa fa-paper-plane"></i> Panduan Mengunggah </a>
 							</div>
 						<h3 style="font-size: 18px;color: #fff;"><i class="fa fa-phone" aria-hidden="true"></i> Narahubung</h3>
 							<div class="col-xs-12 no-padding">
