@@ -11,12 +11,13 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
 
-Route::get('/easychair', 'EasychairController@index');
+Route::get('/', 'HomeController@index');
 
 Route::get('/kegiatan','KegiatanController@index');
 
 Route::get('/pendaftaran','PendaftaranController@index');
 
 Route::get('/prosiding','ProsidingController@index');
+
+Route::get('/easychair','EasychairController@tampileasychair');

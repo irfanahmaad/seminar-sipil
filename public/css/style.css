@@ -775,6 +775,13 @@ section.program{
 	margin-bottom: 20px;
 }
 
+.garis-penuh {
+	border-bottom: 6px solid red;
+	width: 50px;
+	
+}
+
+
 .garis-putih {
 	border-bottom: 2px solid #fff;
 	width: 50px;

@@ -4,26 +4,7 @@
 	<!-- codingnya disini ya bre -->
 	<div class="container wrapper margin-top-header" style="position: relative;">
 		<div class="row">
-			<!-- <div class="col-xs-12">
-				<a href="https://easychair.org/conferences/?conf=sntspnj2018" target="blank" class="btn btn-flat brown-sipil btn-daftar" style="max-width: 100%; margin-top: 15px">DAFTAR SEKARANG</a>
-			</div> -->
-			<div class="col-xs-8">
-				<div class="padding-20">
-					<h3 style="font-size: 18px;">Proses Mengunggah Abstrak / Makalah menggunakan EasyChair</h3>
-					<div class="garis"></div>
-					<div class="col-xs-12 no-padding  margin-bottom-15" align="justify" style="line-height: 24px;">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						<br>
-						Lanjutin disini bre
-					</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-md-4">
+		<div class="col-xs-12 col-md-4">
 				<div class="padding-20">
 					<div class="sidebar-wrap">
 						<h3 style="font-size: 18px;">Bidang Peminatan</h3>
@@ -55,6 +36,54 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<div class="padding-20">
+					<h3 style="font-size: 18px;">Proses Mengunggah Abstrak / Makalah menggunakan EasyChair</h3>
+					<div class="garis"></div>
+					<div class="col-xs-12 no-padding  margin-bottom-15" style="line-height: 24px;">
+						1. Jika belum memiliki account di Easy Chair silahkan membuka tautan berikut 
+						<a href="https://easychair.org/account/signup.cgi">https://easychair.org/account/signup.cgi</a>
+						<div class="profilecontainer">
+						<img src="{{ asset('img/sign.jpg') }}" class="img-responsive">
+					</div>
+						Jika sudah memiliki account di Easy Chair silahkan membuka tautan berikut 
+						<a href="https://easychair.org/account/signin.cgi">https://easychair.org/account/signin.cgi</a>
+					<div class="profilecontainer">
+						<img src="{{ asset('img/login.jpg') }}" class="img-responsive">
+					</div>
+					</div>
+					<div class="col-xs-12 no-padding  margin-bottom-15"  style="line-height: 24px;">
+						2. Melakukan pendaftaran mengunggah abstrak dengan klik tautan
+						<a href="https://easychair.org/conferences/?conf=sntspnj2018">https://easychair.org/conferences/?conf=sntspnj2018</a>
+						kemudian klik enter as an author
+					<div class="profilecontainer">
+						<img src="{{ asset('img/unggah.jpg') }}" class="img-responsive">
+					</div>
+				</div>
+				<div class="col-xs-12 no-padding  margin-bottom-15" style="line-height: 24px;">
+						3. Klik menu New Submission 
+				</div>
+				<div class="col-xs-12 no-padding  margin-bottom-15"  style="line-height: 24px;">
+						4. Mengisi kolom pengusul pada bagian Author 1 (Author 2 dan Author 3 dikosongkan) 
+					<div class="profilecontainer">
+						<img src="{{ asset('img/auth.jpg') }}" class="img-responsive">
+					</div>
+				</div>
+				<div class="col-xs-12 no-padding  margin-bottom-15"  style="line-height: 24px;">
+						5. Memasukan Judul Makalah dan minimal memasukan 3 kata kunci dari makalah
+					<div class="profilecontainer">
+						<img src="{{ asset('img/judul.jpg') }}" class="img-responsive">
+					</div>
+				</div>
+				<div class="col-xs-12 no-padding  margin-bottom-15"  style="line-height: 24px;">
+						6. Mengunggah makalah dengan format .doc dan docx. Kemudian klik tombol Submit.
+					<div class="profilecontainer">
+						<img src="{{ asset('img/final.jpg') }}" class="img-responsive">
+					</div>
+				</div>
+			</div>
+			
 			</div>
 		</div>
 	</div>
