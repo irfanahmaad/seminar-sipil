@@ -4,39 +4,7 @@
 	<!-- codingnya disini ya bre -->
 	<div class="container wrapper margin-top-header" style="position: relative;">
 		<div class="row">
-		<div class="col-xs-12 col-md-4">
-				<div class="padding-20">
-					<div class="sidebar-wrap">
-						<h3 style="font-size: 18px;">Bidang Peminatan</h3>
-						<div class="garis"></div>
-						<div class="bidang-kajian-text col-xs-10 no-padding">
-						<ul>
-							<li>Material</li>
-							<li>Stuktur</li>
-							<li>Geoteknik</li>
-							<li>Manajemen Konstruksi</li>
-							<li>Sumber Daya Air dan Lingkungan</li>
-							<li>Metode Pelaksanaan dan K3</li>
-							<li>Transportasi</li>
-						</ul>
-						</div>
-					</div>
-				</div
-				<div class="col-xs-12 col-md-4">
-				<div class="padding-20">
-					<div class="sidebar-wrap">
-						<h3 style="font-size: 18px;"><b>Makalah yang dipresentasikan akan dimuat</b></h3>
-						<div class="garis"></div>
-						<div class="bidang-kajian-text col-xs-10 no-padding">
-							<ul>
-								<li>Jurnal Politeknologi (Selected Papers)</li>
-								<li>Construction And Material Journal (All Papers)</li>
-							</ul>
-							Terindeks : SINTA dan Google Scholar.
-						</div>
-					</div>
-				</div>
-			</div>
+		<!-- Proses Menggungah -->
 			<div class="col-xs-12 col-md-8">
 				<div class="padding-20">
 					<h3 style="font-size: 18px;">Proses Mengunggah Abstrak / Makalah menggunakan EasyChair</h3>
@@ -83,7 +51,40 @@
 					</div>
 				</div>
 			</div>
-			
+			</div>
+			<!-- Bidang Peminatan dan Makalah yang dipresentasikan akan dimuat -->
+			<div class="col-xs-12 col-md-4">
+				<div class="padding-20">
+					<div class="sidebar-wrap">
+						<h3 style="font-size: 18px;">Bidang Peminatan</h3>
+						<div class="garis"></div>
+						<div class="bidang-kajian-text col-xs-10 no-padding">
+						<ul>
+							<li>Material</li>
+							<li>Stuktur</li>
+							<li>Geoteknik</li>
+							<li>Manajemen Konstruksi</li>
+							<li>Sumber Daya Air dan Lingkungan</li>
+							<li>Metode Pelaksanaan dan K3</li>
+							<li>Transportasi</li>
+						</ul>
+						</div>
+					</div>
+				</div
+				<div class="col-xs-12 col-md-4">
+				<div class="padding-20">
+					<div class="sidebar-wrap">
+						<h3 style="font-size: 18px;"><b>Makalah yang dipresentasikan akan dimuat</b></h3>
+						<div class="garis"></div>
+						<div class="bidang-kajian-text col-xs-10 no-padding">
+							<ul>
+								<li>Jurnal Politeknologi (Selected Papers)</li>
+								<li>Construction And Material Journal (All Papers)</li>
+							</ul>
+							Terindeks : SINTA dan Google Scholar.
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

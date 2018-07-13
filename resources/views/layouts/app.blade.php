@@ -38,11 +38,11 @@
       <nav>
         <ul>
           <li><a class="page-scroll" href="#page-top">BERANDA</a></li>
-              <li><a class="page-scroll" href="#tentang-seminar">TENTANG SEMINAR</a></li>
-              <li><a class="page-scroll" href="#pembicara">KEYNOTE SPEAKER</a></li>
-              <li><a class="page-scroll" href="#call-for-papers">CALL FOR PAPERS</a></li>
-              <li><a class="page-scroll" href="#important-dates">TANGGAL PENTING</a></li>
-              <li><a class="page-scroll" href="#gallery">GALERI</a></li>
+          <li><a class="page-scroll" href="#tentang-seminar">TENTANG SEMINAR</a></li>
+          <li><a class="page-scroll" href="#pembicara">KEYNOTE SPEAKER</a></li>
+          <li><a class="page-scroll" href="#call-for-papers">CALL FOR PAPERS</a></li>
+          <li><a class="page-scroll" href="#important-dates">TANGGAL PENTING</a></li>
+          <li><a class="page-scroll" href="#gallery">GALERI</a></li>
         </ul>
       </nav>
     </div>
@@ -65,11 +65,11 @@
         <div class="nav-bar col-xs-10 col-sm-10">
             <ul>
               <li><a class="page-scroll" href="/#page-top">BERANDA</a></li>
-              <li><a class="page-scroll" href="#tentang-seminar">TENTANG SEMINAR</a></li>
+              <li><a class="page-scroll" href="/#tentang-seminar">TENTANG SEMINAR</a></li>
               <li><a class="page-scroll" href="/#pembicara">KEYNOTE SPEAKER</a></li>
               <li><a class="page-scroll" href="/#call-for-papers">CALL FOR PAPERS</a></li>
-              <li><a class="page-scroll" href="#important-dates">TANGGAL PENTING</a></li>
-              <li><a class="page-scroll" href="#gallery">GALERI</a></li>
+              <li><a class="page-scroll" href="/#important-dates">TANGGAL PENTING</a></li>
+              <li><a class="page-scroll" href="/#gallery">GALERI</a></li>
             </ul>
         </div>
         <div id="nav-icon1">

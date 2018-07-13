@@ -135,7 +135,7 @@
 								<a href="{{ asset('format-files/template Sistematika_Manuskrip.docx') }}" class="btn btn-info btn-flat btn-makalah brown-sipil-active left" style="margin-right:10px;"><i class="fa fa-download"></i> Download Word Templates</a>
 								<a href="https://easychair.org/conferences/?conf=sntspnj2018" target="blank" class="btn btn-info btn-flat btn-makalah brown-sipil-active left" style="margin-top:10px;"><i class="fa fa-paper-plane"></i> Kirim Abstrak / Full Paper </a>
 								<!-- ini linkya belum diganti -->
-								<a href="{{asset('/easychair')}}" target="blank" class="btn btn-info btn-flat btn-makalah brown-sipil-active left" style="margin-top:10px;margin-bottom: 20px;"><i class="fa fa-paper-plane"></i> Panduan Mengunggah </a>
+								<a href="{{asset('/easychair')}}" target="blank" class="btn btn-info btn-flat btn-makalah brown-sipil-active left" style="margin-top:10px;margin-bottom: 20px;"><i class="fa fa-book"></i> Panduan Mengunggah </a>
 							</div>
 						<h3 style="font-size: 18px;color: #fff;"><i class="fa fa-phone" aria-hidden="true"></i> Narahubung</h3>
 							<div class="col-xs-12 no-padding">
